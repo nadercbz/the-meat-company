@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-i18n="meta.title">The Meat Company · Smokehouse, Burger & Sandwiches in Berlin-Mitte</title>
+<meta name="description" data-i18n-a="content:meta.desc" content="Deluxe Fastfood in Berlin-Mitte: Smoked Brisket, 14 Tage gepökeltes Pastrami, Smash Burger aus USDA Prime Beef und Sandwiches auf Shokupan. Slow cooked BBQ in der Friedrichstraße 63. Täglich ab 12 Uhr.">
+<meta name="theme-color" content="#0b0a09">
+<link rel="canonical" href="https://themeatcompany.berlin/">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="The Meat Company · Let's meat here.">
+<meta property="og:description" data-i18n-a="content:meta.ogdesc" content="Low & slow geräuchertes Brisket, Pastrami und Burger aus USDA Prime Beef. Friedrichstraße 63, Berlin-Mitte.">
+<meta property="og:image" content="https://themeatcompany.berlin/assets/img/og.jpg">
+<meta property="og:locale" content="de_DE">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/fonts.css?v=20261109">
+<link rel="preload" as="image" href="assets/img/cut/brisketburger.webp" fetchpriority="high">
+<link rel="stylesheet" href="css/style.css?v=20261109">
+<link rel="alternate" hreflang="de" href="https://themeatcompany.berlin/">
+<link rel="alternate" hreflang="en" href="https://themeatcompany.berlin/?lang=en">
+<link rel="alternate" hreflang="tr" href="https://themeatcompany.berlin/?lang=tr">
+<link rel="alternate" hreflang="ar" href="https://themeatcompany.berlin/?lang=ar">
+<link rel="alternate" hreflang="ru" href="https://themeatcompany.berlin/?lang=ru">
+<link rel="alternate" hreflang="x-default" href="https://themeatcompany.berlin/">
+<script>
+  (function (d) {
+    d.classList.add("js");
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) d.classList.add("has-motion");
+    /* Sprache: ?lang= vor gespeicherter Wahl, sonst Deutsch. Arabisch läuft von rechts nach links. */
+    var L = ["de", "en", "tr", "ar", "ru"], q = (location.search.match(/[?&]lang=([a-z]{2})/) || [])[1], s = null;
+    try { s = localStorage.getItem("tmc-lang"); if (L.indexOf(q) > -1) localStorage.setItem("tmc-lang", q); } catch (e) {}
+    var lang = L.indexOf(q) > -1 ? q : (L.indexOf(s) > -1 ? s : "de");
+    d.lang = lang;
+    d.dir = lang === "ar" ? "rtl" : "ltr";
+    if (lang !== "de") d.classList.add("i18n-wait");
+    var extra = { ru: "css/fonts-ru.css", ar: "css/fonts-ar.css" }[lang];
+    if (extra) {
+      var l = document.createElement("link");
+      l.rel = "stylesheet";
+      l.href = extra + "?v=20261109";
+      document.head.appendChild(l);
+    }
+    setTimeout(function () { if (!window.__tmcReady) { d.classList.remove("has-motion", "i18n-wait"); document.body.classList.remove("is-loading"); } }, 5000);
+  })(document.documentElement);
+</script>
+<!-- LD:START -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "The Meat Company", "url": "https://themeatcompany.berlin/", "image": "https://themeatcompany.berlin/assets/img/og.jpg", "servesCuisine": ["BBQ", "Burger", "Sandwiches", "American"], "priceRange": "€€", "address": {"@type": "PostalAddress", "streetAddress": "Friedrichstraße 63", "postalCode": "10117", "addressLocality": "Berlin", "addressCountry": "DE"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "12:00", "closes": "23:59"}], "sameAs": ["https://www.tiktok.com/@themeatcompanyberlin"], "hasMenu": {"@type": "Menu", "name": "Speisekarte", "hasMenuSection": [{"@type": "MenuSection", "name": "Burger", "hasMenuItem": [{"@type": "MenuItem", "name": "Smash Brioche Burger", "description": "Brioche Bun, 130 g USDA Prime Beefpatty, Cheddar, Senf, Ketchup, Gewürzgurke, Zwiebeln", "offers": {"@type": "Offer", "price": "8.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Melt-Smash Brioche Burger", "description": "Shokupan, 130 g USDA Prime Beefpatty, Gewürzgurke, Zwiebeln, Senf, Ketchup, Cheddar", "offers": {"@type": "Offer", "price": "10.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Pulled Beef Brioche Burger", "description": "Brioche Bun, Pulled Beef, BBQ-Sauce, Cole Slaw", "offers": {"@type": "Offer", "price": "14", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "The Meat Brioche Burger", "description": "Brioche Bun mit Sesam, 130 g USDA Prime Beefpatty, Römersalat, Fleischtomate, Russian Dressing", "offers": {"@type": "Offer", "price": "9.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Meat the Heat", "description": "180 g USDA Prime Beefpatty, Cheddar, Habanero Mayo, Rucola, Jalapeños, Tomate", "offers": {"@type": "Offer", "price": "15", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Trüffel Burger", "description": "180 g USDA Prime Beefpatty, Cheddar, Trüffel Mayo, Römersalat, schwarzer Trüffel", "offers": {"@type": "Offer", "price": "16", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Brisket Burger", "description": "Brioche Bun, 180 g Brisket, geschmorte Zwiebeln, Käsesauce, Schnittlauch", "offers": {"@type": "Offer", "price": "21", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Chicken Lemon Burger", "description": "Knoblauchmayo, Römersalat, Zitronenabrieb, Parmesan, Knoblauchöl", "offers": {"@type": "Offer", "price": "15", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Chicken Miso Burger", "description": "Römersalat, Chicken Tender Miso BBQ, Srirachamayo", "offers": {"@type": "Offer", "price": "15", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "The Breakfast Club", "description": "180 g USDA Prime Beefpatty, Cheddar, Cocktail Sauce, Römersalat, Zwiebel, Gewürzgurke, Pastrami-Bacon, French Toast", "offers": {"@type": "Offer", "price": "16", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Beef Patty + Cheese", "description": "Saftiges 150 g USDA Prime Beefpatty, frisch vom Grill, mit geschmolzenem Käse on top. Pur, ehrlich und voller Geschmack.", "offers": {"@type": "Offer", "price": "5", "priceCurrency": "EUR"}}]}, {"@type": "MenuSection", "name": "Sandwiches & Wraps", "hasMenuItem": [{"@type": "MenuItem", "name": "Meat Cheesesteak Sandwich", "description": "USDA Prime Entrecôte, frische Jalapeños, Provolone, Zwiebeln", "offers": {"@type": "Offer", "price": "23", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Short Rib Sub", "description": "Short Rib, Cole Slaw, eingelegte rote Zwiebeln, BBQ Sauce", "offers": {"@type": "Offer", "price": "31", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Entrecôte Sandwich", "description": "220 g Rinder-Entrecôte USDA Prime, Rucola, Sauce Béarnaise, Café de Paris Butter", "offers": {"@type": "Offer", "price": "33", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "TMC-Pastrami-Sandwich", "description": "Shokupan, Pastrami, Russian Dressing, Senf, Gewürzgurke", "offers": {"@type": "Offer", "price": "18", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Reuben Sandwich", "description": "Pastrami, Sauerkraut, Gewürzgurke, Provolone, Senf, Russian Dressing", "offers": {"@type": "Offer", "price": "18", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Pastrami Sub", "description": "Köftebrot, 200 g Pastrami, Römersalat, Tomate, Gurke, Zwiebel, Knoblauchsauce, Cole Slaw", "offers": {"@type": "Offer", "price": "23", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Rinderfilet Sandwich", "description": "180 g arg. Rinderfilet, Pommes, Chimichurri, Provolone", "offers": {"@type": "Offer", "price": "35", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Chicken Wrap", "description": "Fried Chicken, Cole Slaw, Chipotlemayo, Knoblauchöl", "offers": {"@type": "Offer", "price": "14", "priceCurrency": "EUR"}}]}, {"@type": "MenuSection", "name": "Meat", "hasMenuItem": [{"@type": "MenuItem", "name": "Pastrami", "description": "Feinstes Rindfleisch, 14 Tage gepökelt und hauchdünn geschnitten. Saftig, würzig und schonend geräuchert.", "offers": {"@type": "Offer", "price": "10", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Brisket", "description": "Zartes Rinderbruststück, slow cooked und 16 Stunden über Kirsch- und Walnussholz geräuchert.", "offers": {"@type": "Offer", "price": "13", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Short Rib", "description": "Saftige, butterzarte Rinderrippen, langsam geräuchert, bis das Fleisch mühelos vom Knochen fällt.", "offers": {"@type": "Offer", "price": "28", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Pulled Beef", "description": "Zart gegartes, saftiges Rindfleisch, stundenlang geräuchert, fein zerzupft und mit aromatischer BBQ-Sauce verfeinert.", "offers": {"@type": "Offer", "price": "14", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Entrecôte 300 g", "description": "Zartes, saftiges Rib-Eye-Steak in USDA Prime Qualität, perfekt marmoriert und auf den Punkt gegrillt. Ein Fleischgenuss der Extraklasse.", "offers": {"@type": "Offer", "price": "42", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "3 Chicken Tenders", "description": "Hähnchen, Panko, Miso BBQ oder Hähnchen, Panko, Garlic Parmesan · + 2 Dips", "offers": {"@type": "Offer", "price": "17", "priceCurrency": "EUR"}}]}, {"@type": "MenuSection", "name": "Sides", "hasMenuItem": [{"@type": "MenuItem", "name": "Pommes Frites", "description": "Knusprig, gesalzen, immer frisch.", "offers": {"@type": "Offer", "price": "4", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Süßkartoffelpommes", "description": "Süß, knusprig, leicht gewürzt.", "offers": {"@type": "Offer", "price": "5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Pulled Beef Tacos", "description": "Weizentortilla, Pulled Beef, Guacamole, Pico de Gallo, Limetten", "offers": {"@type": "Offer", "price": "15", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Mac'n Cheese", "description": "Cremig, käsig, hausgemacht.", "offers": {"@type": "Offer", "price": "7", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Mash & Truffle", "description": "Kartoffelpüree, Trüffelcreme, Butter", "offers": {"@type": "Offer", "price": "9", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Mash & Parmesan", "description": "Kartoffelpüree, Parmesan, Butter", "offers": {"@type": "Offer", "price": "8", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Mash & Gravy", "description": "Kartoffelpüree, Bratensauce", "offers": {"@type": "Offer", "price": "7", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Miso Gurken", "description": "Gurken in Miso-Marinade und Sesam", "offers": {"@type": "Offer", "price": "6", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Cole Slaw", "description": "Rotkraut, Weißkohl, Vinaigrette", "offers": {"@type": "Offer", "price": "5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Caesar Salad", "description": "Römersalat, Tomaten, Croutons, Caesar Dressing", "offers": {"@type": "Offer", "price": "8.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Texas Chili", "description": "Geschmorte Rinderbrust, Zwiebeln, Knoblauch, Jalapeños, Habanero, geröstetes Sauerteigbrot", "offers": {"@type": "Offer", "price": "6", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Mexican Corn", "description": "Grilled Corn, Chipotle Mayo, Jalapeños, Provolone", "offers": {"@type": "Offer", "price": "6", "priceCurrency": "EUR"}}]}, {"@type": "MenuSection", "name": "Sauces", "hasMenuItem": [{"@type": "MenuItem", "name": "Ketchup, Mayo, Senf", "offers": {"@type": "Offer", "price": "0.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Café de Paris Butter", "description": "Besonders cremig & feiner Geschmack", "offers": {"@type": "Offer", "price": "2", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Knoblauchsauce", "description": "Deine extra Portion Knobi", "offers": {"@type": "Offer", "price": "2", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Käsesauce", "description": "Nur für richtige Cheese Lover", "offers": {"@type": "Offer", "price": "3.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Habanero Cheesesauce", "description": "Feurig und ordentlich cheesy", "offers": {"@type": "Offer", "price": "4", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "BBQ Sauce", "description": "Hausgemacht, mit einer feinen Fruchtnote", "offers": {"@type": "Offer", "price": "2", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Habaneromayo", "description": "Für alle, die es richtig scharf mögen", "offers": {"@type": "Offer", "price": "2", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Trüffelmayo", "description": "Mayo mit einer feinen Trüffelnote", "offers": {"@type": "Offer", "price": "3", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Srirachamayo", "description": "Hol dir einen leichten Schärfekick", "offers": {"@type": "Offer", "price": "2", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Chipotle Mayo", "description": "Wie in den Staaten", "offers": {"@type": "Offer", "price": "2", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Extra Cheddar", "offers": {"@type": "Offer", "price": "1.5", "priceCurrency": "EUR"}}]}, {"@type": "MenuSection", "name": "Drinks", "hasMenuItem": [{"@type": "MenuItem", "name": "Cola, Fanta, Sprite, Mezzo", "offers": {"@type": "Offer", "price": "4", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Wasser", "description": "Vio & Apollinaris", "offers": {"@type": "Offer", "price": "3.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Heimat Schorle", "description": "Apfelschorle, Orange-Maracujaschorle, Rhabarberschorle", "offers": {"@type": "Offer", "price": "4", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Youniq Limo", "description": "Yuzu, Salted Lychee, Matcha Limette", "offers": {"@type": "Offer", "price": "4.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Elephant Bay Ice Tea", "offers": {"@type": "Offer", "price": "4.5", "priceCurrency": "EUR"}}, {"@type": "MenuItem", "name": "Almdudler", "description": "Classic, Zero", "offers": {"@type": "Offer", "price": "4", "priceCurrency": "EUR"}}]}, {"@type": "MenuSection", "name": "Sweets", "hasMenuItem": [{"@type": "MenuItem", "name": "Cup Cheesecake", "description": "Daily Specials. Frag unser Team nach der Sorte des Tages.", "offers": {"@type": "Offer", "price": "7", "priceCurrency": "EUR"}}]}]}}</script>
+<!-- LD:END -->
+</head>
+<body class="is-loading">
+<a class="skip" href="#karte" data-i18n="a11y.skip">Direkt zur Speisekarte</a>
+
+<!-- Preloader -->
+<div class="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-mark">
+      <img width="1200" height="486" class="loader-mark-base" src="assets/img/wordmark.webp" alt="">
+      <img width="1200" height="486" class="loader-mark-fill" src="assets/img/wordmark.webp" alt="">
+    </div>
+    <div class="loader-meta mono"><span data-i18n="loader.text">Smoker heizt vor</span><span class="loader-num">00</span></div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+  <div class="loader-panel loader-panel--a"></div>
+  <div class="loader-panel loader-panel--b"></div>
+</div>
+
+<!-- Cursor -->
+<div class="cursor" aria-hidden="true"><span class="cursor-ring"></span><span class="cursor-dot"></span><span class="cursor-label"></span></div>
+
+<!-- Header -->
+<header class="nav" id="nav">
+  <a class="nav-logo" href="#top" aria-label="The Meat Company, zum Seitenanfang" data-i18n-a="aria-label:a11y.home">
+    <img width="1200" height="486" src="assets/img/wordmark.webp" alt="The Meat Company">
+  </a>
+  <nav class="nav-links" aria-label="Hauptnavigation" data-i18n-a="aria-label:a11y.mainnav">
+    <a href="#signature" data-i18n="nav.signature">Signature</a>
+    <a href="#karte" data-i18n="nav.menu">Karte</a>
+    <a href="#mittag" data-i18n="nav.lunch">Mittag</a>
+    <a href="#story" data-i18n="nav.story">Story</a>
+    <a href="#galerie" data-i18n="nav.gallery">Galerie</a>
+    <a href="#besuch" data-i18n="nav.visit">Besuch</a>
+    <a class="nav-soon" href="#charlottenburg"><span class="soon-dot" aria-hidden="true"></span><span data-i18n="nav.soon">Coming Soon</span></a>
+  </nav>
+  <div class="nav-right">
+    <p class="status mono" data-status><span class="status-dot"></span><span class="status-text">Öffnungszeiten</span></p>
+    <div class="lang">
+      <button class="lang-toggle mono" aria-expanded="false" aria-controls="langMenu" aria-label="Sprache wählen" data-i18n-a="aria-label:lang.label">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9M12 3c-2.6 2.6-3.9 5.6-3.9 9s1.3 6.4 3.9 9"/></svg>
+        <span data-lang-current>DE</span>
+      </button>
+      <div class="lang-menu" id="langMenu">
+        <a data-lang="de" lang="de" href="?lang=de">Deutsch<span>DE</span></a>
+        <a data-lang="en" lang="en" href="?lang=en">English<span>EN</span></a>
+        <a data-lang="tr" lang="tr" href="?lang=tr">Türkçe<span>TR</span></a>
+        <a data-lang="ar" lang="ar" href="?lang=ar">العربية<span>AR</span></a>
+        <a data-lang="ru" lang="ru" href="?lang=ru">Русский<span>RU</span></a>
+      </div>
+    </div>
+    <div class="order">
+      <button class="btn btn--copper btn--sm order-toggle" aria-expanded="false" aria-controls="orderMenu" data-magnetic data-cursor="Bestellen" data-i18n-a="data-cursor:nav.order">
+        <span class="btn-label" data-i18n="nav.order">Bestellen</span>
+      </button>
+      <div class="order-menu" id="orderMenu" role="menu">
+        <a role="menuitem" href="https://wolt.com/en/deu/berlin/restaurant/the-meat-company-ber" target="_blank" rel="noopener">Wolt <span>↗</span></a>
+        <a role="menuitem" href="https://www.ubereats.com/de-en/store/the-meat-companys/bbltFes5UFKcEIkeWC5Nww" target="_blank" rel="noopener">Uber Eats <span>↗</span></a>
+        <a role="menuitem" href="https://www.lieferando.de/speisekarte/the-meat-company-mitte" target="_blank" rel="noopener">Lieferando <span>↗</span></a>
+      </div>
+    </div>
+    <button class="burger" aria-label="Menü öffnen" data-i18n-a="aria-label:js.menuOpen" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- Mobile Menü -->
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu-links" aria-label="Mobile Navigation" data-i18n-a="aria-label:a11y.mobilenav">
+    <a href="#signature"><span class="mono">01</span><span data-i18n="nav.signature">Signature</span></a>
+    <a href="#karte"><span class="mono">02</span><span data-i18n="nav.menu">Karte</span></a>
+    <a href="#mittag"><span class="mono">03</span><span data-i18n="nav.lunch">Mittag</span></a>
+    <a href="#story"><span class="mono">04</span><span data-i18n="nav.story">Story</span></a>
+    <a href="#galerie"><span class="mono">05</span><span data-i18n="nav.gallery">Galerie</span></a>
+    <a href="#besuch"><span class="mono">06</span><span data-i18n="nav.visit">Besuch</span></a>
+    <a class="mmenu-soon" href="#charlottenburg"><span class="mono">07</span><span data-i18n="nav.soon">Coming Soon</span><span class="soon-dot" aria-hidden="true"></span></a>
+  </nav>
+  <div class="mmenu-foot">
+    <a class="btn btn--copper" href="https://wolt.com/en/deu/berlin/restaurant/the-meat-company-ber" target="_blank" rel="noopener">Wolt ↗</a>
+    <a class="btn btn--ghost" href="https://www.ubereats.com/de-en/store/the-meat-companys/bbltFes5UFKcEIkeWC5Nww" target="_blank" rel="noopener">Uber Eats ↗</a>
+    <a class="btn btn--ghost" href="https://www.lieferando.de/speisekarte/the-meat-company-mitte" target="_blank" rel="noopener">Lieferando ↗</a>
+    <div class="mmenu-lang" dir="ltr" role="group" aria-label="Sprache wählen" data-i18n-a="aria-label:lang.label">
+      <a data-lang="de" lang="de" href="?lang=de">DE</a><a data-lang="en" lang="en" href="?lang=en">EN</a><a data-lang="tr" lang="tr" href="?lang=tr">TR</a><a data-lang="ar" lang="ar" href="?lang=ar">AR</a><a data-lang="ru" lang="ru" href="?lang=ru">RU</a>
+    </div>
+    <p class="mono" lang="de">Friedrichstraße 63 · 10117 Berlin</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top" aria-label="Willkommen" data-i18n-a="aria-label:a11y.hero">
+  <canvas class="hero-smoke" aria-hidden="true"></canvas>
+  <canvas class="hero-embers" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-eyebrow mono"><span data-i18n="hero.e1">Smokehouse</span><span data-i18n="hero.e2">Burger</span><span data-i18n="hero.e3">Sandwiches</span></p>
+    <h1 class="hero-title" dir="ltr" aria-label="Let's meat here.">
+      <span class="ht ht-lets" aria-hidden="true">Let's</span>
+      <span class="ht ht-meat" aria-hidden="true"><span class="ht-char">M</span><span class="ht-char">e</span><span class="ht-char">a</span><span class="ht-char">t</span></span>
+      <span class="ht ht-here" aria-hidden="true">here.</span>
+    </h1>
+    <figure class="hero-dish">
+      <div class="hero-dish-glow" aria-hidden="true"></div>
+      <img width="1072" height="881" src="assets/img/cut/brisketburger.webp" alt="Brisket Burger mit geschmorten Zwiebeln, Käsesauce und Schnittlauch" data-i18n-a="alt:img.hero" fetchpriority="high">
+      <figcaption class="hero-tag mono" dir="ltr" lang="en"><span>Brisket Burger</span><span>21 €</span></figcaption>
+    </figure>
+    <div class="hero-foot">
+      <div class="hero-copy">
+        <p class="hero-lede" data-i18n="hero.lede">Smoked Brisket, 14 Tage gepökeltes Pastrami, Smash Burger auf Brioche und Sandwiches auf japanischem Shokupan. Slow cooked BBQ, frisch vom Grill. Deluxe Fastfood mitten in Berlin-Mitte.</p>
+        <div class="hero-ctas">
+          <a class="btn btn--copper" href="#karte" data-magnetic><span class="btn-label" data-i18n="hero.cta1">Speisekarte</span><span class="btn-arrow" aria-hidden="true">↓</span></a>
+          <a class="btn btn--ghost" href="https://wolt.com/en/deu/berlin/restaurant/the-meat-company-ber" target="_blank" rel="noopener" data-magnetic><span class="btn-label" data-i18n="hero.cta2">Liefern lassen</span><span class="btn-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <dl class="hero-meta mono">
+        <div><dt data-i18n="hero.addr">Adresse</dt><dd lang="de">Friedrichstraße 63<br>10117 Berlin-Mitte</dd></div>
+        <div><dt data-i18n="hero.open">Geöffnet</dt><dd data-i18n="hero.daily">Täglich ab 12:00</dd></div>
+        <div><dt data-i18n="hero.since">Seit</dt><dd>13.06.2025</dd></div>
+      </dl>
+    </div>
+    <div class="hero-scroll mono" aria-hidden="true"><span data-i18n="hero.scroll">Scroll</span><i></i></div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" dir="ltr" lang="en" aria-hidden="true">
+  <div class="ticker-track">
+    <div class="ticker-row">
+      <span>Smoked</span><img width="520" height="339" src="assets/img/cut/sm/pastrami.webp" alt=""><em>low &amp; slow</em><span>Grilled</span><img width="520" height="429" src="assets/img/cut/sm/smash.webp" alt=""><span>Stacked</span><img width="520" height="370" src="assets/img/cut/sm/reuben.webp" alt=""><em>made in Berlin</em><span>USDA Prime Beef</span><img width="520" height="328" src="assets/img/cut/sm/brisketmeat.webp" alt="">
+    </div>
+    <div class="ticker-row">
+      <span>Smoked</span><img width="520" height="339" src="assets/img/cut/sm/pastrami.webp" alt=""><em>low &amp; slow</em><span>Grilled</span><img width="520" height="429" src="assets/img/cut/sm/smash.webp" alt=""><span>Stacked</span><img width="520" height="370" src="assets/img/cut/sm/reuben.webp" alt=""><em>made in Berlin</em><span>USDA Prime Beef</span><img width="520" height="328" src="assets/img/cut/sm/brisketmeat.webp" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- MANIFEST -->
+<section class="manifest" id="story" aria-labelledby="manifestTitle">
+  <div class="manifest-bg" aria-hidden="true">
+    <video class="manifest-video" muted loop playsinline disablepictureinpicture preload="none" poster="assets/video/mood-poster.webp" data-src="assets/video/mood.mp4" data-src-sm="assets/video/mood-sm.mp4"></video>
+  </div>
+  <div class="wrap">
+    <p class="eyebrow mono"><span class="eyebrow-no">01</span><span data-i18n="story.eyebrow">Die Haltung</span></p>
+    <h2 class="manifest-text" id="manifestTitle" data-i18n="story.text">
+      Wir räuchern Brisket <span class="pill"><img width="520" height="328" src="assets/img/cut/sm/brisketmeat.webp" alt=""></span> 16 Stunden, pökeln Pastrami <span class="pill"><img width="520" height="339" src="assets/img/cut/sm/pastrami.webp" alt=""></span> 14 Tage lang und schichten jedes Sandwich <span class="pill"><img width="520" height="366" src="assets/img/cut/sm/tmcpastrami.webp" alt=""></span> erst, wenn du bestellst. <em>Deluxe Fastfood.</em> Slow cooked BBQ, mitten in Mitte.
+    </h2>
+    <div class="stats">
+      <div class="stat"><p class="stat-num"><span data-count="16">16</span><small>h</small></p><p class="stat-label" data-i18n="story.s1">Stunden im Smoker</p></div>
+      <div class="stat"><p class="stat-num"><span data-count="14">14</span><small data-i18n="story.days">Tage</small></p><p class="stat-label" data-i18n="story.s5">Pastrami gepökelt</p></div>
+      <div class="stat"><p class="stat-num"><span data-count="180">180</span><small>g</small></p><p class="stat-label" data-i18n="story.s2">USDA Prime Patty</p></div>
+      <div class="stat"><p class="stat-num"><span data-count="2025">2025</span></p><p class="stat-label" data-i18n="story.s4">in Berlin eröffnet</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNATURE -->
+<section class="sig" id="signature" aria-labelledby="sigTitle">
+  <div class="sig-pin">
+    <div class="sig-bgwords" dir="ltr" lang="en" aria-hidden="true">
+      <span>Pastrami</span><span>Heat</span><span>Filet</span><span>Trüffel</span><span>Short Rib</span>
+    </div>
+    <header class="sig-head">
+      <p class="eyebrow mono"><span class="eyebrow-no">02</span><span data-i18n="sig.eyebrow">Die Signatur</span></p>
+      <h2 class="sig-title" id="sigTitle" data-i18n="sig.title">Fünf Gründe, <em>wiederzukommen.</em></h2>
+    </header>
+
+    <div class="sig-stage" dir="ltr">
+      <svg class="sig-dial" viewBox="0 0 600 600" aria-hidden="true">
+        <defs>
+          <linearGradient id="copperGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f3c39c"/><stop offset=".5" stop-color="#d4875a"/><stop offset="1" stop-color="#8f4b2a"/>
+          </linearGradient>
+        </defs>
+        <g class="sig-ticks"></g>
+        <circle class="sig-ring-bg" cx="300" cy="300" r="262"/>
+        <circle class="sig-ring" cx="300" cy="300" r="262"/>
+      </svg>
+
+      <div class="sig-dish" data-i="0">
+        <img width="1177" height="829" src="assets/img/cut/tmcpastrami.webp" alt="TMC Pastrami Sandwich" loading="lazy">
+        <ul class="co-list">
+          <li class="co co--l" style="--x:30%;--y:18%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.shokupan">Shokupan</span></li>
+          <li class="co co--r" style="--x:85%;--y:50%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.pastrami">Pastrami, 14 Tage gepökelt</span></li>
+          <li class="co co--l" style="--x:15%;--y:37%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.senf">Senf</span></li>
+          <li class="co co--r" style="--x:56%;--y:84%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.russian">Russian Dressing</span></li>
+        </ul>
+      </div>
+      <div class="sig-dish" data-i="1">
+        <img width="1215" height="894" src="assets/img/cut/meattheheat.webp" alt="Meat the Heat Burger" loading="lazy">
+        <ul class="co-list">
+          <li class="co co--l" style="--x:36%;--y:50%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.jalapenos">Jalapeños</span></li>
+          <li class="co co--r" style="--x:70%;--y:55%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.cheddar">Cheddar</span></li>
+          <li class="co co--l" style="--x:30%;--y:68%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.patty">180 g USDA Prime Patty</span></li>
+          <li class="co co--l" style="--x:16%;--y:80%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.rucola">Rucola</span></li>
+          <li class="co co--r" style="--x:56%;--y:66%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.habmayo">Habanero Mayo</span></li>
+        </ul>
+      </div>
+      <div class="sig-dish" data-i="2">
+        <img width="1229" height="862" src="assets/img/cut/rinderfilet.webp" alt="Rinderfilet Sandwich" data-i18n-a="alt:img.rinderfilet" loading="lazy">
+        <ul class="co-list">
+          <li class="co co--r" style="--x:77%;--y:28%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.filet">180 g arg. Rinderfilet</span></li>
+          <li class="co co--l" style="--x:21%;--y:30%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.chimi">Chimichurri</span></li>
+          <li class="co co--r" style="--x:58%;--y:52%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.pommes">Pommes im Sandwich</span></li>
+          <li class="co co--l" style="--x:40%;--y:62%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.provolone">Provolone</span></li>
+        </ul>
+      </div>
+      <div class="sig-dish" data-i="3">
+        <img width="1291" height="853" src="assets/img/cut/trueffel.webp" alt="Trüffel Burger" data-i18n-a="alt:img.trueffel" loading="lazy">
+        <ul class="co-list">
+          <li class="co co--r" style="--x:54%;--y:50%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.trmayo">Trüffel Mayo</span></li>
+          <li class="co co--r" style="--x:64%;--y:40%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.truffle">Schwarzer Trüffel</span></li>
+          <li class="co co--l" style="--x:30%;--y:47%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.cheddar">Cheddar</span></li>
+          <li class="co co--l" style="--x:35%;--y:60%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.patty">180 g USDA Prime Patty</span></li>
+          <li class="co co--l" style="--x:12%;--y:70%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.romaine">Römersalat</span></li>
+        </ul>
+      </div>
+      <div class="sig-dish" data-i="4">
+        <img width="1243" height="696" src="assets/img/cut/shortribsub.webp" alt="Short Rib Sub" loading="lazy">
+        <ul class="co-list">
+          <li class="co co--l" style="--x:30%;--y:45%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.shortrib">Short Rib</span></li>
+          <li class="co co--r" style="--x:63%;--y:82%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.bbq">BBQ Sauce</span></li>
+          <li class="co co--l" style="--x:25%;--y:72%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.coleslaw">Cole Slaw</span></li>
+          <li class="co co--r" style="--x:78%;--y:30%"><span class="co-dot"></span><span class="co-line"></span><span class="co-label" data-i18n="co.onions">Rote Zwiebeln, eingelegt</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sig-info">
+      <p class="sig-count mono"><span class="sig-idx">01</span><span class="sig-of">/ 05</span></p>
+      <div class="sig-texts">
+        <article class="sig-text" data-i="0"><h3 lang="en">TMC Pastrami Sandwich</h3><p data-i18n="sig.d0">Shokupan, Pastrami, Russian Dressing, Senf, Gewürzgurke. Unser Haus Sandwich.</p><p class="sig-price"><span>18</span> €</p></article>
+        <article class="sig-text" data-i="1"><h3 lang="en">Meat the Heat</h3><p data-i18n="sig.d1">180 g USDA Prime Beefpatty, Cheddar, Habanero Mayo, Rucola, Jalapeños, Tomate.</p><p class="sig-price"><span>15</span> €</p></article>
+        <article class="sig-text" data-i="2"><h3 lang="en">Rinderfilet Sandwich</h3><p data-i18n="sig.d2">180 g argentinisches Rinderfilet, Pommes, Chimichurri, Provolone. Das Schwergewicht.</p><p class="sig-price"><span>35</span> €</p></article>
+        <article class="sig-text" data-i="3"><h3 lang="en">Trüffel Burger</h3><p data-i18n="sig.d3">180 g USDA Prime Beefpatty, Cheddar, Trüffel Mayo, Römersalat, schwarzer Trüffel.</p><p class="sig-price"><span>16</span> €</p></article>
+        <article class="sig-text" data-i="4"><h3 lang="en">Short Rib Sub</h3><p data-i18n="sig.d4">Short Rib, Cole Slaw, eingelegte rote Zwiebeln, BBQ Sauce. Butterzart vom Knochen.</p><p class="sig-price"><span>31</span> €</p></article>
+      </div>
+      <div class="sig-progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- MITTAG -->
+<section class="lunch" id="mittag" aria-labelledby="lunchTitle">
+  <div class="lunch-bg" aria-hidden="true"></div>
+  <div class="wrap lunch-grid">
+    <div class="lunch-copy">
+      <p class="eyebrow mono"><span class="eyebrow-no">03</span><span data-i18n="lunch.eyebrow">Mittags Burger Menü</span></p>
+      <h2 class="lunch-title" id="lunchTitle"><span class="lunch-price" dir="ltr"><span class="lunch-num" data-roll="13,50" data-i18n="lunch.price" data-i18n-a="data-roll:lunch.price">13,50</span><span class="lunch-eur">€</span></span></h2>
+      <p class="lunch-sub" data-i18n="lunch.sub">Burger, Pommes &amp; Getränk. <em>Montag bis Freitag, 12 bis 15 Uhr.</em></p>
+      <p class="lunch-text" data-i18n="lunch.text">The Meat Brioche Burger, Smash Brioche Burger oder Melt-Smash Brioche Burger. Du wählst.</p>
+      <p class="lunch-live mono" data-lunch><span class="status-dot"></span><span class="lunch-live-text">Mittagsmenü</span></p>
+    </div>
+    <div class="lunch-trio" aria-label="Zur Wahl: drei Burger" data-i18n-a="aria-label:a11y.trio">
+      <figure class="trio-item trio-item--1"><img width="1090" height="843" src="assets/img/cut/meatburger.webp" alt="The Meat Brioche Burger" loading="lazy"><figcaption class="mono" lang="en">The Meat Brioche</figcaption></figure>
+      <figure class="trio-item trio-item--2"><img width="1001" height="826" src="assets/img/cut/smash.webp" alt="Smash Brioche Burger" loading="lazy"><figcaption class="mono" lang="en">Smash Brioche</figcaption></figure>
+      <figure class="trio-item trio-item--3"><img width="1075" height="815" src="assets/img/cut/melt.webp" alt="Melt-Smash Brioche Burger" loading="lazy"><figcaption class="mono" lang="en">Melt-Smash</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- PROZESS -->
+<section class="process" aria-labelledby="processTitle">
+  <div class="process-pin">
+    <div class="process-track" dir="ltr">
+      <div class="pp pp--intro">
+        <p class="eyebrow mono"><span class="eyebrow-no">04</span><span data-i18n="about.eyebrow">Über uns</span></p>
+        <h2 class="process-title" id="processTitle" data-i18n="about.title">Low &amp; slow,<br><em>mitten in Mitte.</em></h2>
+        <p class="process-text" data-i18n="about.text">Bei uns dreht sich alles um perfekt gegrilltes Fleisch und Slow cooked Barbecue. Brisket räuchert 16 Stunden über Kirsch- und Walnussholz, Pastrami wird 14 Tage gepökelt, die Patties aus USDA Prime Beef kommen frisch vom Grill, und das Brot wählen wir passend zu jedem Sandwich: Brioche, Shokupan oder Köftebrot. Deluxe Fastfood, seit dem 13. Juni 2025 in der Friedrichstraße.</p>
+        <p class="process-hint mono" aria-hidden="true"><span data-i18n="about.hint">Weiter scrollen</span> <span>→</span></p>
+      </div>
+      <article class="pp pp--cut">
+        <figure class="pp-media pp-media--cut"><img width="1253" height="792" src="assets/img/cut/entrecotemeat.webp" alt="Entrecôte auf dem Blech mit Pico de Gallo" data-i18n-a="alt:img.entrecote" loading="lazy"></figure>
+        <div class="pp-copy"><h3 data-i18n="about.h1">Das Fleisch</h3><p data-i18n="about.p1">USDA Prime Beef für alle Patties von 130 bis 180 g und für das Entrecôte. Das Rinderfilet kommt aus Argentinien.</p></div>
+      </article>
+      <article class="pp">
+        <figure class="pp-media"><img width="2000" height="1113" src="assets/img/foto/ph_shortrib.webp" alt="Short Rib Sub frisch aus der Küche" data-i18n-a="alt:img.shortrib" loading="lazy"></figure>
+        <div class="pp-copy"><h3 data-i18n="about.h2">Der Rauch</h3><p data-i18n="about.p2">Wir smoken ausschließlich mit Kirsch- und Walnusshölzern. Brisket, Pastrami, Short Rib und Pulled Beef, alles aus unserem eigenen Smoker, nichts zugekauft.</p></div>
+      </article>
+      <article class="pp pp--clock">
+        <div class="clock" aria-hidden="true">
+          <svg viewBox="0 0 400 400"><circle class="clock-bg" cx="200" cy="200" r="170"/><circle class="clock-fill" cx="200" cy="200" r="170"/><g class="clock-ticks"></g></svg>
+          <p class="clock-num"><span class="clock-h">16</span><small>h</small></p>
+        </div>
+        <div class="pp-copy"><h3 data-i18n="about.h3">Die Zeit</h3><p data-i18n="about.p3">16 Stunden im Smoker. Slow cooked bei niedriger Temperatur, bis das Brisket nachgibt. Abkürzungen gibt es nicht.</p></div>
+      </article>
+      <article class="pp">
+        <figure class="pp-media"><img width="2000" height="1113" src="assets/img/foto/ph_reuben_hands.webp" alt="Reuben Sandwich in den Händen eines Kochs" data-i18n-a="alt:img.reubenhands" loading="lazy"></figure>
+        <div class="pp-copy"><h3 data-i18n="about.h4">Gebaut, nicht belegt.</h3><p data-i18n="about.p4">Jedes Sandwich wird auf Bestellung geschichtet. Vom Smoker aufs Blech, vom Blech auf den Tisch.</p></div>
+      </article>
+      <article class="pp pp--sauce">
+        <div class="sauce-frame" role="img" aria-label="Hausgemachte Saucen" data-i18n-a="aria-label:a11y.sauces"><img width="520" height="511" class="sauce-pic sauce-pic--1" src="assets/img/cut/sm/bbqsauce.webp" alt="" loading="lazy"><img width="520" height="517" class="sauce-pic sauce-pic--2" src="assets/img/cut/sm/habaneromayo.webp" alt="" loading="lazy"><img width="520" height="500" class="sauce-pic sauce-pic--3" src="assets/img/cut/sm/trueffelmayo.webp" alt="" loading="lazy"><img width="520" height="505" class="sauce-pic sauce-pic--4" src="assets/img/cut/sm/chipotlemayo.webp" alt="" loading="lazy"><img width="520" height="508" class="sauce-pic sauce-pic--5" src="assets/img/cut/sm/cafedeparis.webp" alt="" loading="lazy"><img width="520" height="515" class="sauce-pic sauce-pic--6" src="assets/img/cut/sm/srirachamayo.webp" alt="" loading="lazy"><img width="520" height="520" class="sauce-pic sauce-pic--7" src="assets/img/cut/sm/knoblauchsauce.webp" alt="" loading="lazy"><img width="520" height="504" class="sauce-pic sauce-pic--8" src="assets/img/cut/sm/kaesesauce.webp" alt="" loading="lazy"></div>
+        <div class="pp-copy"><h3 data-i18n="about.h5">Die Saucen</h3><p data-i18n="about.p5">BBQ, Habanero, Trüffel, Chipotle. Alles aus unserer eigenen Küche.</p></div>
+      </article>
+    </div>
+    <div class="process-bar" dir="ltr" aria-hidden="true"><span class="mono">00 h</span><div class="process-line"><i></i></div><span class="mono">16 h</span></div>
+  </div>
+</section>
+
+<!-- KARTE -->
+<section class="menu" id="karte" aria-labelledby="menuTitle">
+  <div class="wrap">
+    <header class="menu-head">
+      <p class="eyebrow mono"><span class="eyebrow-no">05</span><span data-i18n="menu.eyebrow">Made in Berlin · Alle Preise in €</span></p>
+      <h2 class="menu-title" id="menuTitle" data-i18n="menu.title">Die <em>Karte</em></h2>
+      <div class="menu-dl">
+        <a class="menu-dl-main" href="assets/menu/The-Meat-Company-Menu-DE.pdf" download data-menu-pdf data-cursor="PDF">
+          <span class="menu-dl-cover"><img width="360" height="510" src="assets/menu/cover-de.webp" alt="" loading="lazy" data-menu-cover></span>
+          <span class="menu-dl-text"><strong data-i18n="menu.pdf">Speisekarte als PDF</strong><span class="mono" data-i18n="menu.pdfmeta">16 Seiten · A4 · zum Ausdrucken</span></span>
+          <span class="btn btn--copper menu-dl-btn" aria-hidden="true"><span class="btn-label" data-i18n="menu.pdfbtn">Herunterladen</span><span class="btn-arrow">↓</span></span>
+        </a>
+        <p class="menu-dl-langs mono" dir="ltr"><span data-i18n="menu.pdflangs">Andere Sprachen</span><a href="assets/menu/The-Meat-Company-Menu-DE.pdf" download hreflang="de" lang="de" data-pdf-lang="de">DE</a><a href="assets/menu/The-Meat-Company-Menu-EN.pdf" download hreflang="en" lang="en" data-pdf-lang="en">EN</a><a href="assets/menu/The-Meat-Company-Menu-TR.pdf" download hreflang="tr" lang="tr" data-pdf-lang="tr">TR</a><a href="assets/menu/The-Meat-Company-Menu-AR.pdf" download hreflang="ar" lang="ar" data-pdf-lang="ar">AR</a><a href="assets/menu/The-Meat-Company-Menu-RU.pdf" download hreflang="ru" lang="ru" data-pdf-lang="ru">RU</a></p>
+      </div>
+    </header>
+  </div>
+  <nav class="m-tabs" aria-label="Kategorien der Speisekarte" data-i18n-a="aria-label:a11y.tabs">
+    <div class="m-tabs-inner">
+<!-- TABS:START -->
+<a class="m-tab" href="#karte-burger" data-cat="burger" data-i18n="kat.burger.tab">Burger</a>
+<a class="m-tab" href="#karte-sandwiches" data-cat="sandwiches" data-i18n="kat.sandwiches.tab">Sandwiches</a>
+<a class="m-tab" href="#karte-meat" data-cat="meat" data-i18n="kat.meat.tab">Meat</a>
+<a class="m-tab" href="#karte-sides" data-cat="sides" data-i18n="kat.sides.tab">Sides</a>
+<a class="m-tab" href="#karte-sauces" data-cat="sauces" data-i18n="kat.sauces.tab">Sauces</a>
+<a class="m-tab" href="#karte-drinks" data-cat="drinks" data-i18n="kat.drinks.tab">Drinks</a>
+<a class="m-tab" href="#karte-sweets" data-cat="sweets" data-i18n="kat.sweets.tab">Sweets</a>
+<!-- TABS:END -->
+      <span class="m-tabs-ind" aria-hidden="true"></span>
+    </div>
+  </nav>
+  <div class="wrap m-body">
+<!-- MENU:START -->
+<section class="m-cat" id="karte-burger" aria-labelledby="mh-burger">
+<header class="m-cat-head"><span class="m-cat-no mono">01</span><h3 class="m-cat-title" id="mh-burger" data-i18n="kat.burger.title">Burger</h3><p class="m-cat-sub" data-i18n="kat.burger.sub">USDA Prime Beef, frisch vom Grill</p></header>
+<ul class="m-list">
+<li class="m-item" data-img="smash"><div class="m-thumb" aria-hidden="true"><img width="520" height="429" src="assets/img/cut/sm/smash.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.smash_brioche_burger.name">Smash Brioche Burger</span></h4><p class="m-desc" data-i18n="item.smash_brioche_burger.text">Brioche Bun, 130 g USDA Prime Beefpatty, Cheddar, Senf, Ketchup, Gewürzgurke, Zwiebeln</p></div><div class="m-price"><span class="m-num">8,50</span></div></li>
+<li class="m-item" data-img="melt"><div class="m-thumb" aria-hidden="true"><img width="520" height="394" src="assets/img/cut/sm/melt.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.melt_smash_brioche_burger.name">Melt-Smash Brioche Burger</span></h4><p class="m-desc" data-i18n="item.melt_smash_brioche_burger.text">Shokupan, 130 g USDA Prime Beefpatty, Gewürzgurke, Zwiebeln, Senf, Ketchup, Cheddar</p></div><div class="m-price"><span class="m-num">10,50</span></div></li>
+<li class="m-item" data-img="pulledbeef"><div class="m-thumb" aria-hidden="true"><img width="520" height="440" src="assets/img/cut/sm/pulledbeef.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.pulled_beef_brioche_burger.name">Pulled Beef Brioche Burger</span></h4><p class="m-desc" data-i18n="item.pulled_beef_brioche_burger.text">Brioche Bun, Pulled Beef, BBQ-Sauce, Cole Slaw</p></div><div class="m-price"><span class="m-num">14</span></div></li>
+<li class="m-item" data-img="meatburger"><div class="m-thumb" aria-hidden="true"><img width="520" height="402" src="assets/img/cut/sm/meatburger.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.the_meat_brioche_burger.name">The Meat Brioche Burger</span></h4><p class="m-desc" data-i18n="item.the_meat_brioche_burger.text">Brioche Bun mit Sesam, 130 g USDA Prime Beefpatty, Römersalat, Fleischtomate, Russian Dressing</p></div><div class="m-price"><span class="m-num">9,50</span></div></li>
+<li class="m-item" data-img="meattheheat"><div class="m-thumb" aria-hidden="true"><img width="520" height="383" src="assets/img/cut/sm/meattheheat.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.meat_the_heat.name">Meat the Heat</span> <span class="m-tag m-tag--scharf m-tag--c3"><span data-i18n="spice.3">Sehr scharf</span><i class="chilis" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg></i></span></h4><p class="m-desc" data-i18n="item.meat_the_heat.text">180 g USDA Prime Beefpatty, Cheddar, Habanero Mayo, Rucola, Jalapeños, Tomate</p></div><div class="m-price"><span class="m-num">15</span></div></li>
+<li class="m-item" data-img="trueffel"><div class="m-thumb" aria-hidden="true"><img width="520" height="344" src="assets/img/cut/sm/trueffel.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.trueffel_burger.name">Trüffel Burger</span></h4><p class="m-desc" data-i18n="item.trueffel_burger.text">180 g USDA Prime Beefpatty, Cheddar, Trüffel Mayo, Römersalat, schwarzer Trüffel</p></div><div class="m-price"><span class="m-num">16</span></div></li>
+<li class="m-item" data-img="brisketburger"><div class="m-thumb" aria-hidden="true"><img width="520" height="427" src="assets/img/cut/sm/brisketburger.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.brisket_burger.name">Brisket Burger</span> <span class="m-tag m-tag--signature" data-i18n="tag.signature">Signature</span></h4><p class="m-desc" data-i18n="item.brisket_burger.text">Brioche Bun, 180 g Brisket, geschmorte Zwiebeln, Käsesauce, Schnittlauch</p></div><div class="m-price"><span class="m-num">21</span></div></li>
+<li class="m-item" data-img="chickenlemon"><div class="m-thumb" aria-hidden="true"><img width="520" height="409" src="assets/img/cut/sm/chickenlemon.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.chicken_lemon_burger.name">Chicken Lemon Burger</span></h4><p class="m-desc" data-i18n="item.chicken_lemon_burger.text">Knoblauchmayo, Römersalat, Zitronenabrieb, Parmesan, Knoblauchöl</p></div><div class="m-price"><span class="m-num">15</span></div></li>
+<li class="m-item" data-img="chickenmiso"><div class="m-thumb" aria-hidden="true"><img width="520" height="509" src="assets/img/cut/sm/chickenmiso.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.chicken_miso_burger.name">Chicken Miso Burger</span></h4><p class="m-desc" data-i18n="item.chicken_miso_burger.text">Römersalat, Chicken Tender Miso BBQ, Srirachamayo</p></div><div class="m-price"><span class="m-num">15</span></div></li>
+<li class="m-item" data-img="breakfastclub"><div class="m-thumb" aria-hidden="true"><img width="520" height="321" src="assets/img/cut/sm/breakfastclub.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.the_breakfast_club.name">The Breakfast Club</span></h4><p class="m-desc" data-i18n="item.the_breakfast_club.text">180 g USDA Prime Beefpatty, Cheddar, Cocktail Sauce, Römersalat, Zwiebel, Gewürzgurke, Pastrami-Bacon, French Toast</p></div><div class="m-price"><span class="m-num">16</span></div></li>
+<li class="m-item" data-img="patty"><div class="m-thumb" aria-hidden="true"><img width="520" height="355" src="assets/img/cut/sm/patty.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.beef_patty_cheese.name">Beef Patty + Cheese</span></h4><p class="m-desc" data-i18n="item.beef_patty_cheese.text">Saftiges 150 g USDA Prime Beefpatty, frisch vom Grill, mit geschmolzenem Käse on top. Pur, ehrlich und voller Geschmack.</p></div><div class="m-price"><span class="m-num">5</span></div></li>
+</ul>
+</section>
+<section class="m-cat" id="karte-sandwiches" aria-labelledby="mh-sandwiches">
+<header class="m-cat-head"><span class="m-cat-no mono">02</span><h3 class="m-cat-title" id="mh-sandwiches" data-i18n="kat.sandwiches.title">Sandwiches &amp; Wraps</h3><p class="m-cat-sub" data-i18n="kat.sandwiches.sub">Auf Bestellung geschichtet</p></header>
+<ul class="m-list">
+<li class="m-item" data-img="cheesesteak"><div class="m-thumb" aria-hidden="true"><img width="520" height="331" src="assets/img/cut/sm/cheesesteak.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.meat_cheesesteak_sandwich.name">Meat Cheesesteak Sandwich</span></h4><p class="m-desc" data-i18n="item.meat_cheesesteak_sandwich.text">USDA Prime Entrecôte, frische Jalapeños, Provolone, Zwiebeln</p></div><div class="m-price"><span class="m-num">23</span></div></li>
+<li class="m-item" data-img="shortribsub"><div class="m-thumb" aria-hidden="true"><img width="520" height="291" src="assets/img/cut/sm/shortribsub.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.short_rib_sub.name">Short Rib Sub</span></h4><p class="m-desc" data-i18n="item.short_rib_sub.text">Short Rib, Cole Slaw, eingelegte rote Zwiebeln, BBQ Sauce</p></div><div class="m-price"><span class="m-num">31</span></div></li>
+<li class="m-item" data-img="entrecote"><div class="m-thumb" aria-hidden="true"><img width="520" height="334" src="assets/img/cut/sm/entrecote.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.entrecote_sandwich.name">Entrecôte Sandwich</span></h4><p class="m-desc" data-i18n="item.entrecote_sandwich.text">220 g Rinder-Entrecôte USDA Prime, Rucola, Sauce Béarnaise, Café de Paris Butter</p></div><div class="m-price"><span class="m-num">33</span></div></li>
+<li class="m-item" data-img="tmcpastrami"><div class="m-thumb" aria-hidden="true"><img width="520" height="366" src="assets/img/cut/sm/tmcpastrami.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.tmc_pastrami_sandwich.name">TMC-Pastrami-Sandwich</span> <span class="m-tag m-tag--signature" data-i18n="tag.signature">Signature</span></h4><p class="m-desc" data-i18n="item.tmc_pastrami_sandwich.text">Shokupan, Pastrami, Russian Dressing, Senf, Gewürzgurke</p><p class="m-extra" data-i18n="item.tmc_pastrami_sandwich.extra">+ 100 g extra Pastrami · 8 €</p></div><div class="m-price"><span class="m-num">18</span></div></li>
+<li class="m-item" data-img="reuben"><div class="m-thumb" aria-hidden="true"><img width="520" height="370" src="assets/img/cut/sm/reuben.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.reuben_sandwich.name">Reuben Sandwich</span></h4><p class="m-desc" data-i18n="item.reuben_sandwich.text">Pastrami, Sauerkraut, Gewürzgurke, Provolone, Senf, Russian Dressing</p><p class="m-extra" data-i18n="item.reuben_sandwich.extra">+ 100 g extra Pastrami · 8 €</p></div><div class="m-price"><span class="m-num">18</span></div></li>
+<li class="m-item" data-img="pastramisub"><div class="m-thumb" aria-hidden="true"><img width="520" height="243" src="assets/img/cut/sm/pastramisub.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.pastrami_sub.name">Pastrami Sub</span></h4><p class="m-desc" data-i18n="item.pastrami_sub.text">Köftebrot, 200 g Pastrami, Römersalat, Tomate, Gurke, Zwiebel, Knoblauchsauce, Cole Slaw</p></div><div class="m-price"><span class="m-num">23</span></div></li>
+<li class="m-item" data-img="rinderfilet"><div class="m-thumb" aria-hidden="true"><img width="520" height="365" src="assets/img/cut/sm/rinderfilet.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.rinderfilet_sandwich.name">Rinderfilet Sandwich</span></h4><p class="m-desc" data-i18n="item.rinderfilet_sandwich.text">180 g arg. Rinderfilet, Pommes, Chimichurri, Provolone</p></div><div class="m-price"><span class="m-num">35</span></div></li>
+<li class="m-item" data-img="chickenwrap"><div class="m-thumb" aria-hidden="true"><img width="520" height="323" src="assets/img/cut/sm/chickenwrap.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.chicken_wrap.name">Chicken Wrap</span></h4><p class="m-desc" data-i18n="item.chicken_wrap.text">Fried Chicken, Cole Slaw, Chipotlemayo, Knoblauchöl</p></div><div class="m-price"><span class="m-num">14</span></div></li>
+</ul>
+</section>
+<section class="m-cat" id="karte-meat" aria-labelledby="mh-meat">
+<header class="m-cat-head"><span class="m-cat-no mono">03</span><h3 class="m-cat-title" id="mh-meat" data-i18n="kat.meat.title">Meat</h3><p class="m-cat-sub" data-i18n="kat.meat.sub">Vom Blech, mit Miso-Gurken und Rotkraut. Preise für 100 g / 200 g, wo angegeben.</p></header>
+<ul class="m-list">
+<li class="m-item" data-img="pastrami"><div class="m-thumb" aria-hidden="true"><img width="520" height="339" src="assets/img/cut/sm/pastrami.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.pastrami.name">Pastrami</span></h4><p class="m-desc" data-i18n="item.pastrami.text">Feinstes Rindfleisch, 14 Tage gepökelt und hauchdünn geschnitten. Saftig, würzig und schonend geräuchert.</p></div><div class="m-price"><span class="m-qty">100 g / 200 g</span><span class="m-num">10 / 19</span></div></li>
+<li class="m-item" data-img="brisketmeat"><div class="m-thumb" aria-hidden="true"><img width="520" height="328" src="assets/img/cut/sm/brisketmeat.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.brisket.name">Brisket</span></h4><p class="m-desc" data-i18n="item.brisket.text">Zartes Rinderbruststück, slow cooked und 16 Stunden über Kirsch- und Walnussholz geräuchert.</p></div><div class="m-price"><span class="m-qty">100 g / 200 g</span><span class="m-num">13 / 22</span></div></li>
+<li class="m-item" data-img="shortrib"><div class="m-thumb" aria-hidden="true"><img width="520" height="340" src="assets/img/cut/sm/shortrib.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.short_rib.name">Short Rib</span></h4><p class="m-desc" data-i18n="item.short_rib.text">Saftige, butterzarte Rinderrippen, langsam geräuchert, bis das Fleisch mühelos vom Knochen fällt.</p></div><div class="m-price"><span class="m-num">28</span></div></li>
+<li class="m-item" data-img="pulledbeefmeat"><div class="m-thumb" aria-hidden="true"><img width="520" height="345" src="assets/img/cut/sm/pulledbeefmeat.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.pulled_beef.name">Pulled Beef</span></h4><p class="m-desc" data-i18n="item.pulled_beef.text">Zart gegartes, saftiges Rindfleisch, stundenlang geräuchert, fein zerzupft und mit aromatischer BBQ-Sauce verfeinert.</p></div><div class="m-price"><span class="m-num">14</span></div></li>
+<li class="m-item" data-img="entrecotemeat"><div class="m-thumb" aria-hidden="true"><img width="520" height="329" src="assets/img/cut/sm/entrecotemeat.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.entrecote_300_g.name">Entrecôte 300 g</span></h4><p class="m-desc" data-i18n="item.entrecote_300_g.text">Zartes, saftiges Rib-Eye-Steak in USDA Prime Qualität, perfekt marmoriert und auf den Punkt gegrillt. Ein Fleischgenuss der Extraklasse.</p></div><div class="m-price"><span class="m-num">42</span></div></li>
+<li class="m-item" data-img="tendersmiso"><div class="m-thumb" aria-hidden="true"><img width="520" height="330" src="assets/img/cut/sm/tendersmiso.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.3_chicken_tenders.name">3 Chicken Tenders</span></h4><p class="m-desc" data-i18n="item.3_chicken_tenders.text">Hähnchen, Panko, Miso BBQ oder Hähnchen, Panko, Garlic Parmesan · + 2 Dips</p></div><div class="m-price"><span class="m-num">17</span></div></li>
+</ul>
+</section>
+<section class="m-cat" id="karte-sides" aria-labelledby="mh-sides">
+<header class="m-cat-head"><span class="m-cat-no mono">04</span><h3 class="m-cat-title" id="mh-sides" data-i18n="kat.sides.title">Sides</h3><p class="m-cat-sub" data-i18n="kat.sides.sub">Was daneben gehört</p></header>
+<ul class="m-list">
+<li class="m-item" data-img="fries"><div class="m-thumb" aria-hidden="true"><img width="520" height="516" src="assets/img/cut/sm/fries.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.pommes_frites.name">Pommes Frites</span></h4><p class="m-desc" data-i18n="item.pommes_frites.text">Knusprig, gesalzen, immer frisch.</p></div><div class="m-price"><span class="m-num">4</span></div></li>
+<li class="m-item" data-img="sweetfries"><div class="m-thumb" aria-hidden="true"><img width="520" height="439" src="assets/img/cut/sm/sweetfries.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.suesskartoffelpommes.name">Süßkartoffelpommes</span></h4><p class="m-desc" data-i18n="item.suesskartoffelpommes.text">Süß, knusprig, leicht gewürzt.</p></div><div class="m-price"><span class="m-num">5</span></div></li>
+<li class="m-item" data-img="tacos"><div class="m-thumb" aria-hidden="true"><img width="520" height="354" src="assets/img/cut/sm/tacos.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.pulled_beef_tacos.name">Pulled Beef Tacos</span></h4><p class="m-desc" data-i18n="item.pulled_beef_tacos.text">Weizentortilla, Pulled Beef, Guacamole, Pico de Gallo, Limetten</p></div><div class="m-price"><span class="m-num">15</span></div></li>
+<li class="m-item" data-img="mac"><div class="m-thumb" aria-hidden="true"><img width="520" height="515" src="assets/img/cut/sm/mac.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.mac_n_cheese.name">Mac&#x27;n Cheese</span></h4><p class="m-desc" data-i18n="item.mac_n_cheese.text">Cremig, käsig, hausgemacht.</p></div><div class="m-price"><span class="m-num">7</span></div></li>
+<li class="m-item" data-img="mashtruffle"><div class="m-thumb" aria-hidden="true"><img width="520" height="513" src="assets/img/cut/sm/mashtruffle.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.mash_truffle.name">Mash &amp; Truffle</span></h4><p class="m-desc" data-i18n="item.mash_truffle.text">Kartoffelpüree, Trüffelcreme, Butter</p></div><div class="m-price"><span class="m-num">9</span></div></li>
+<li class="m-item" data-img="mashparm"><div class="m-thumb" aria-hidden="true"><img width="498" height="461" src="assets/img/cut/sm/mashparm.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.mash_parmesan.name">Mash &amp; Parmesan</span></h4><p class="m-desc" data-i18n="item.mash_parmesan.text">Kartoffelpüree, Parmesan, Butter</p></div><div class="m-price"><span class="m-num">8</span></div></li>
+<li class="m-item" data-img="mashgravy"><div class="m-thumb" aria-hidden="true"><img width="520" height="502" src="assets/img/cut/sm/mashgravy.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.mash_gravy.name">Mash &amp; Gravy</span></h4><p class="m-desc" data-i18n="item.mash_gravy.text">Kartoffelpüree, Bratensauce</p></div><div class="m-price"><span class="m-num">7</span></div></li>
+<li class="m-item" data-img="miso"><div class="m-thumb" aria-hidden="true"><img width="520" height="512" src="assets/img/cut/sm/miso.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.miso_gurken.name">Miso Gurken</span></h4><p class="m-desc" data-i18n="item.miso_gurken.text">Gurken in Miso-Marinade und Sesam</p></div><div class="m-price"><span class="m-num">6</span></div></li>
+<li class="m-item" data-img="coleslaw"><div class="m-thumb" aria-hidden="true"><img width="520" height="503" src="assets/img/cut/sm/coleslaw.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.cole_slaw.name">Cole Slaw</span></h4><p class="m-desc" data-i18n="item.cole_slaw.text">Rotkraut, Weißkohl, Vinaigrette</p></div><div class="m-price"><span class="m-num">5</span></div></li>
+<li class="m-item" data-img="caesar"><div class="m-thumb" aria-hidden="true"><img width="520" height="514" src="assets/img/cut/sm/caesar.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.caesar_salad.name">Caesar Salad</span></h4><p class="m-desc" data-i18n="item.caesar_salad.text">Römersalat, Tomaten, Croutons, Caesar Dressing</p></div><div class="m-price"><span class="m-num">8,50</span></div></li>
+<li class="m-item" data-img="chili"><div class="m-thumb" aria-hidden="true"><img width="520" height="461" src="assets/img/cut/sm/chili.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.texas_chili.name">Texas Chili</span> <span class="m-tag m-tag--scharf m-tag--c3"><span data-i18n="spice.3">Sehr scharf</span><i class="chilis" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg></i></span></h4><p class="m-desc" data-i18n="item.texas_chili.text">Geschmorte Rinderbrust, Zwiebeln, Knoblauch, Jalapeños, Habanero, geröstetes Sauerteigbrot</p></div><div class="m-price"><span class="m-num">6</span></div></li>
+<li class="m-item" data-img="corn"><div class="m-thumb" aria-hidden="true"><img width="520" height="514" src="assets/img/cut/sm/corn.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.mexican_corn.name">Mexican Corn</span></h4><p class="m-desc" data-i18n="item.mexican_corn.text">Grilled Corn, Chipotle Mayo, Jalapeños, Provolone</p></div><div class="m-price"><span class="m-num">6</span></div></li>
+</ul>
+</section>
+<section class="m-cat m-cat--kompakt" id="karte-sauces" aria-labelledby="mh-sauces">
+<header class="m-cat-head"><span class="m-cat-no mono">05</span><h3 class="m-cat-title" id="mh-sauces" data-i18n="kat.sauces.title">Sauces</h3><p class="m-cat-sub" data-i18n="kat.sauces.sub">Alles aus unserer Küche</p></header>
+<ul class="m-list">
+<li class="m-item" data-img="ketchupmayosenf"><div class="m-thumb" aria-hidden="true"><img width="520" height="173" src="assets/img/cut/sm/ketchupmayosenf.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.ketchup_mayo_senf.name">Ketchup, Mayo, Senf</span></h4></div><div class="m-price"><span class="m-num">0,50</span></div></li>
+<li class="m-item" data-img="cafedeparis"><div class="m-thumb" aria-hidden="true"><img width="520" height="508" src="assets/img/cut/sm/cafedeparis.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.cafe_de_paris_butter.name">Café de Paris Butter</span></h4><p class="m-desc" data-i18n="item.cafe_de_paris_butter.text">Besonders cremig &amp; feiner Geschmack</p></div><div class="m-price"><span class="m-num">2</span></div></li>
+<li class="m-item" data-img="knoblauchsauce"><div class="m-thumb" aria-hidden="true"><img width="520" height="520" src="assets/img/cut/sm/knoblauchsauce.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.knoblauchsauce.name">Knoblauchsauce</span></h4><p class="m-desc" data-i18n="item.knoblauchsauce.text">Deine extra Portion Knobi</p></div><div class="m-price"><span class="m-num">2</span></div></li>
+<li class="m-item" data-img="kaesesauce"><div class="m-thumb" aria-hidden="true"><img width="520" height="504" src="assets/img/cut/sm/kaesesauce.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.kaesesauce.name">Käsesauce</span></h4><p class="m-desc" data-i18n="item.kaesesauce.text">Nur für richtige Cheese Lover</p></div><div class="m-price"><span class="m-num">3,50</span></div></li>
+<li class="m-item" data-img="habanerocheese"><div class="m-thumb" aria-hidden="true"><img width="520" height="510" src="assets/img/cut/sm/habanerocheese.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.habanero_cheesesauce.name">Habanero Cheesesauce</span> <span class="m-tag m-tag--scharf m-tag--c3"><span data-i18n="spice.3">Sehr scharf</span><i class="chilis" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg></i></span></h4><p class="m-desc" data-i18n="item.habanero_cheesesauce.text">Feurig und ordentlich cheesy</p></div><div class="m-price"><span class="m-num">4</span></div></li>
+<li class="m-item" data-img="bbqsauce"><div class="m-thumb" aria-hidden="true"><img width="520" height="511" src="assets/img/cut/sm/bbqsauce.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.bbq_sauce.name">BBQ Sauce</span></h4><p class="m-desc" data-i18n="item.bbq_sauce.text">Hausgemacht, mit einer feinen Fruchtnote</p></div><div class="m-price"><span class="m-num">2</span></div></li>
+<li class="m-item" data-img="habaneromayo"><div class="m-thumb" aria-hidden="true"><img width="520" height="517" src="assets/img/cut/sm/habaneromayo.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.habaneromayo.name">Habaneromayo</span> <span class="m-tag m-tag--scharf m-tag--c3"><span data-i18n="spice.3">Sehr scharf</span><i class="chilis" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg></i></span></h4><p class="m-desc" data-i18n="item.habaneromayo.text">Für alle, die es richtig scharf mögen</p></div><div class="m-price"><span class="m-num">2</span></div></li>
+<li class="m-item" data-img="trueffelmayo"><div class="m-thumb" aria-hidden="true"><img width="520" height="500" src="assets/img/cut/sm/trueffelmayo.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.trueffelmayo.name">Trüffelmayo</span></h4><p class="m-desc" data-i18n="item.trueffelmayo.text">Mayo mit einer feinen Trüffelnote</p></div><div class="m-price"><span class="m-num">3</span></div></li>
+<li class="m-item" data-img="srirachamayo"><div class="m-thumb" aria-hidden="true"><img width="520" height="515" src="assets/img/cut/sm/srirachamayo.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.srirachamayo.name">Srirachamayo</span> <span class="m-tag m-tag--scharf m-tag--c1"><span data-i18n="spice.1">Leicht scharf</span><i class="chilis" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg></i></span></h4><p class="m-desc" data-i18n="item.srirachamayo.text">Hol dir einen leichten Schärfekick</p></div><div class="m-price"><span class="m-num">2</span></div></li>
+<li class="m-item" data-img="chipotlemayo"><div class="m-thumb" aria-hidden="true"><img width="520" height="505" src="assets/img/cut/sm/chipotlemayo.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.chipotle_mayo.name">Chipotle Mayo</span> <span class="m-tag m-tag--scharf m-tag--c2"><span data-i18n="spice.2">Scharf</span><i class="chilis" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg><svg viewBox="0 0 16 16" width="12" height="12"><path fill="currentColor" d="M11.6 1.2c-.4-.3-.9-.2-1.1.2-.3.4-.2.9.2 1.2.4.3.6.7.7 1.1-.9-.2-1.9.1-2.6.8C6.9 6.4 6.6 9 4.6 11c-1 1-2.2 1.5-3.3 1.7-.5.1-.7.6-.4 1 .9 1.2 3.4 1.8 6.2.7 3.6-1.4 6-4.6 6.3-7.9.1-.9-.2-1.8-.8-2.4-.1-.9-.4-2.2-1-2.9z"/></svg></i></span></h4><p class="m-desc" data-i18n="item.chipotle_mayo.text">Wie in den Staaten</p></div><div class="m-price"><span class="m-num">2</span></div></li>
+<li class="m-item" data-img="cheddar"><div class="m-thumb" aria-hidden="true"><img width="520" height="441" src="assets/img/cut/sm/cheddar.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.extra_cheddar.name">Extra Cheddar</span></h4></div><div class="m-price"><span class="m-num">1,50</span></div></li>
+</ul>
+</section>
+<section class="m-cat m-cat--kompakt" id="karte-drinks" aria-labelledby="mh-drinks">
+<header class="m-cat-head"><span class="m-cat-no mono">06</span><h3 class="m-cat-title" id="mh-drinks" data-i18n="kat.drinks.title">Drinks</h3><p class="m-cat-sub" data-i18n="kat.drinks.sub">Kalt aus dem Kühlschrank</p></header>
+<ul class="m-list">
+<li class="m-item"><div class="m-main"><h4 class="m-name"><span data-i18n="item.cola_fanta_sprite_mezzo.name">Cola, Fanta, Sprite, Mezzo</span></h4></div><div class="m-price"><span class="m-qty">0,33 l</span><span class="m-num">4</span></div></li>
+<li class="m-item"><div class="m-main"><h4 class="m-name"><span data-i18n="item.wasser.name">Wasser</span></h4><p class="m-desc" data-i18n="item.wasser.text">Vio &amp; Apollinaris</p></div><div class="m-price"><span class="m-qty">0,25 l</span><span class="m-num">3,50</span></div></li>
+<li class="m-item"><div class="m-main"><h4 class="m-name"><span data-i18n="item.heimat_schorle.name">Heimat Schorle</span></h4><p class="m-desc" data-i18n="item.heimat_schorle.text">Apfelschorle, Orange-Maracujaschorle, Rhabarberschorle</p></div><div class="m-price"><span class="m-qty">0,33 l</span><span class="m-num">4</span></div></li>
+<li class="m-item"><div class="m-main"><h4 class="m-name"><span data-i18n="item.youniq_limo.name">Youniq Limo</span></h4><p class="m-desc" data-i18n="item.youniq_limo.text">Yuzu, Salted Lychee, Matcha Limette</p></div><div class="m-price"><span class="m-qty">0,33 l</span><span class="m-num">4,50</span></div></li>
+<li class="m-item"><div class="m-main"><h4 class="m-name"><span data-i18n="item.elephant_bay_ice_tea.name">Elephant Bay Ice Tea</span></h4></div><div class="m-price"><span class="m-qty">0,33 l</span><span class="m-num">4,50</span></div></li>
+<li class="m-item"><div class="m-main"><h4 class="m-name"><span data-i18n="item.almdudler.name">Almdudler</span></h4><p class="m-desc" data-i18n="item.almdudler.text">Classic, Zero</p></div><div class="m-price"><span class="m-qty">0,33 l</span><span class="m-num">4</span></div></li>
+</ul>
+</section>
+<section class="m-cat" id="karte-sweets" aria-labelledby="mh-sweets">
+<header class="m-cat-head"><span class="m-cat-no mono">07</span><h3 class="m-cat-title" id="mh-sweets" data-i18n="kat.sweets.title">Sweets</h3><p class="m-cat-sub" data-i18n="kat.sweets.sub">Zum Schluss</p></header>
+<ul class="m-list">
+<li class="m-item" data-img="cheesecake"><div class="m-thumb" aria-hidden="true"><img width="520" height="510" src="assets/img/cut/sm/cheesecake.webp" alt="" loading="lazy" decoding="async"></div><div class="m-main"><h4 class="m-name"><span data-i18n="item.cup_cheesecake.name">Cup Cheesecake</span></h4><p class="m-desc" data-i18n="item.cup_cheesecake.text">Daily Specials. Frag unser Team nach der Sorte des Tages.</p></div><div class="m-price"><span class="m-num">7</span></div></li>
+</ul>
+</section>
+<!-- MENU:END -->
+    <p class="m-note" data-i18n="menu.note">Allergene &amp; Produktinformationen erhältst du bei unserem Team. Alle Preise in Euro inkl. MwSt.</p>
+  </div>
+  <div class="m-preview" aria-hidden="true"><img alt=""></div>
+</section>
+
+<!-- GALERIE -->
+<section class="gallery" id="galerie" aria-labelledby="galTitle">
+  <div class="wrap">
+    <header class="gal-head">
+      <p class="eyebrow mono"><span class="eyebrow-no">06</span><span data-i18n="gal.eyebrow">Aus der Küche</span></p>
+      <h2 class="gal-title" id="galTitle" lang="de">Friedrichstraße <em>63</em></h2>
+    </header>
+    <figure class="film" data-film="assets/video/film/film-{l}-{f}.mp4" data-film-langs="de,en">
+      <div class="film-frame">
+        <picture>
+          <source media="(max-width: 760px)" srcset="assets/video/film/poster-de-9x16.webp">
+          <img width="1600" height="900" class="film-poster" src="assets/video/film/poster-de-16x9.webp" alt="" loading="lazy">
+        </picture>
+        <video class="film-video" playsinline controls preload="none" hidden></video>
+        <button class="film-play" data-cursor="Play" data-i18n-a="data-cursor:film.cursor">
+          <span class="film-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+          <span class="film-label mono" data-i18n="film.play">Film ansehen</span>
+        </button>
+      </div>
+      <figcaption class="film-cap mono"><span data-i18n="film.title">Der Imagefilm</span><span class="film-dot" aria-hidden="true"></span><span data-i18n="film.len">1 Minute</span></figcaption>
+    </figure>
+    <div class="gal-grid">
+      <button class="gal-item gal-item--a" data-cursor="Ansehen" data-i18n-a="data-cursor:gal.view" data-full="assets/img/foto/ph_kitchen.webp"><span class="gal-img"><img width="506" height="900" src="assets/img/foto/sm/ph_kitchen.webp" alt="Die offene Küche mit Kupferlampen" data-i18n-a="alt:img.g1" loading="lazy"></span><span class="gal-cap mono" data-i18n="gal.c1">Die offene Küche</span></button>
+      <button class="gal-item gal-item--b" data-cursor="Ansehen" data-i18n-a="data-cursor:gal.view" data-full="assets/img/foto/ph_reuben_tray.webp"><span class="gal-img"><img width="900" height="501" src="assets/img/foto/sm/ph_reuben_tray.webp" alt="Reuben Sandwich auf dem Blech" data-i18n-a="alt:img.g2" loading="lazy"></span><span class="gal-cap mono" data-i18n="gal.c2">Vom Blech auf den Tisch</span></button>
+      <button class="gal-item gal-item--c" data-cursor="Ansehen" data-i18n-a="data-cursor:gal.view" data-full="assets/img/foto/ph_pastramisub.webp"><span class="gal-img"><img width="604" height="900" src="assets/img/foto/sm/ph_pastramisub.webp" alt="Pastrami Sub mit Rotkraut" data-i18n-a="alt:img.g3" loading="lazy"></span><span class="gal-cap mono" data-i18n="gal.c3">Pastrami Sub</span></button>
+      <button class="gal-item gal-item--d" data-cursor="Ansehen" data-i18n-a="data-cursor:gal.view" data-full="assets/img/foto/ph_tray_walk.webp"><span class="gal-img"><img width="501" height="900" src="assets/img/foto/sm/ph_tray_walk.webp" alt="Ein Tablett frisch vom Grill wird serviert" data-i18n-a="alt:img.g4" loading="lazy"></span><span class="gal-cap mono" data-i18n="gal.c4">Frisch vom Grill</span></button>
+      <button class="gal-item gal-item--e" data-cursor="Ansehen" data-i18n-a="data-cursor:gal.view" data-full="assets/img/foto/ph_board.webp"><span class="gal-img"><img width="601" height="900" src="assets/img/foto/sm/ph_board.webp" alt="Die beleuchtete Karte am Tresen" data-i18n-a="alt:img.g5" loading="lazy"></span><span class="gal-cap mono" data-i18n="gal.c5">Die Karte am Tresen</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- JERKY -->
+<section class="jerky" aria-labelledby="jerkyTitle">
+  <div class="jerky-word" dir="ltr" lang="en" aria-hidden="true">Jerky</div>
+  <div class="wrap jerky-grid">
+    <div class="jerky-copy">
+      <p class="eyebrow mono"><span class="eyebrow-no">07</span><span data-i18n="jerky.eyebrow">Zum Mitnehmen</span></p>
+      <h2 class="jerky-title" id="jerkyTitle" lang="en">Delicious <em>Beef Jerky</em></h2>
+      <p class="jerky-text" data-i18n="jerky.text">Unser Rindfleisch, mariniert, getrocknet und geräuchert. Der Snack für unterwegs, im 25 + 9 g Big Snack Pack direkt bei uns im Laden.</p>
+      <div class="jerky-flavors" role="list" lang="en">
+        <span role="listitem" class="flavor">Smoked BBQ</span>
+        <span role="listitem" class="flavor">Chilli</span>
+        <span role="listitem" class="flavor flavor--ghost">25 + 9 g Snack Pack</span>
+      </div>
+    </div>
+    <div class="jerky-pack" data-tilt>
+      <div class="jerky-pack-inner">
+        <img width="596" height="1000" src="assets/img/jerky.webp" alt="Beef Jerky Packung Smoked BBQ von The Meat Company" data-i18n-a="alt:img.jerky" loading="lazy">
+        <span class="jerky-shine" aria-hidden="true"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL: Reels und Posts von Instagram, Karten baut main.js aus js/social-data.js (tools/instagram_holen.py) -->
+<section class="social" id="social" aria-labelledby="socialTitle">
+  <div class="wrap social-head">
+    <div class="social-copy">
+      <p class="eyebrow mono"><span class="eyebrow-no">08</span><span data-i18n="social.eyebrow">Auf Instagram</span></p>
+      <h2 class="social-title" id="socialTitle" data-i18n="social.title">Frisch aus dem <em>Feed.</em></h2>
+    </div>
+    <div class="social-side">
+      <p class="social-text" data-i18n="social.text">Food Creator aus ganz Berlin filmen bei uns, und wir zeigen, was aus der Küche kommt. Hier sind die neuesten Reels und Posts.</p>
+      <dl class="social-stats">
+        <div><dt class="mono" data-i18n="social.followers">Follower</dt><dd dir="ltr" class="social-num" data-num="14200">14.200</dd></div>
+        <div><dt class="mono" data-i18n="social.reach">Aufrufe der letzten Reels</dt><dd dir="ltr" class="social-num" data-num="100000" data-plus>100.000+</dd></div>
+      </dl>
+      <a class="btn btn--copper social-cta" href="https://www.instagram.com/themeatcompanyberlin/" target="_blank" rel="noopener" data-magnetic>
+        <svg class="social-ig" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" class="fill"/></svg>
+        <span class="btn-label" lang="en" dir="ltr">@themeatcompanyberlin</span><span class="btn-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+  <div class="social-rail" dir="ltr" tabindex="0" data-cursor="Ziehen" aria-label="Instagram Reels und Posts, seitlich scrollen" data-i18n-a="data-cursor:social.drag;aria-label:social.rail">
+    <ul class="social-track" role="list" data-more="Alle Reels auf Instagram" data-i18n-a="data-more:social.more"></ul>
+  </div>
+  <div class="wrap social-foot" dir="ltr">
+    <div class="social-bar" aria-hidden="true"><span></span></div>
+    <div class="social-nav">
+      <button class="social-btn" data-dir="-1" aria-label="Zurück" data-i18n-a="aria-label:social.prev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <button class="social-btn" data-dir="1" aria-label="Weiter" data-i18n-a="aria-label:social.next"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- COMING SOON: neue Filiale in Charlottenburg. Aktivitäten stehen in js/news-data.js (neueste zuerst) -->
+<section class="soon" id="charlottenburg" aria-labelledby="soonTitle">
+  <div class="wrap soon-grid">
+    <figure class="soon-photo soon-photo--empty">
+      <!-- Foto der Filiale: hier <img class="soon-img" src="assets/img/charlottenburg.webp" alt="..."> einsetzen und soon-photo--empty entfernen -->
+      <div class="soon-plan" aria-hidden="true"></div>
+      <p class="soon-word" dir="ltr" lang="de" aria-hidden="true">Charlotten<br>burg</p>
+      <div class="soon-tape soon-tape--a" dir="ltr" lang="en" aria-hidden="true"><span>COMING SOON · LET'S MEAT HERE · COMING SOON · LET'S MEAT HERE · COMING SOON · LET'S MEAT HERE · </span><span>COMING SOON · LET'S MEAT HERE · COMING SOON · LET'S MEAT HERE · COMING SOON · LET'S MEAT HERE · </span></div>
+      <div class="soon-tape soon-tape--b" dir="ltr" lang="en" aria-hidden="true"><span>CHARLOTTENBURG · COMING SOON · CHARLOTTENBURG · COMING SOON · CHARLOTTENBURG · COMING SOON · </span><span>CHARLOTTENBURG · COMING SOON · CHARLOTTENBURG · COMING SOON · CHARLOTTENBURG · COMING SOON · </span></div>
+      <div class="soon-stamp" lang="en" aria-hidden="true">
+        <div class="soon-stamp-spin">
+          <svg viewBox="0 0 200 200" xmlns:xlink="http://www.w3.org/1999/xlink" dir="ltr">
+            <defs><path id="soonCircle" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+            <circle cx="100" cy="100" r="96" class="soon-stamp-bg"/>
+            <text><textPath href="#soonCircle" xlink:href="#soonCircle" textLength="462" lengthAdjust="spacing">COMING SOON · THE MEAT COMPANY · CHARLOTTENBURG ·</textPath></text>
+          </svg>
+        </div>
+        <svg class="soon-stamp-pin" viewBox="0 0 24 24"><path d="M12 2.5c-3.9 0-7 3-7 6.9 0 5 7 12.1 7 12.1s7-7.1 7-12.1c0-3.9-3.1-6.9-7-6.9zm0 9.5a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></svg>
+      </div>
+    </figure>
+    <div class="soon-copy">
+      <p class="eyebrow mono"><span class="eyebrow-no">09</span><span data-i18n="soon.eyebrow">Neue Filiale</span></p>
+      <h2 class="soon-title" id="soonTitle" data-i18n="soon.title">Bald auch in <em>Charlottenburg.</em></h2>
+      <p class="soon-text" data-i18n="soon.text">Unser nächstes Smokehouse entsteht gerade in Charlottenburg. Gleiche Glut, neue Adresse. Hier steht alles, was passiert, bis die Türen aufgehen.</p>
+      <dl class="soon-facts">
+        <div><dt class="mono" data-i18n="soon.whereK">Wo</dt><dd lang="de">Berlin Charlottenburg</dd></div>
+        <div><dt class="mono" data-i18n="soon.whenK">Eröffnung</dt><dd><span class="soon-dot" aria-hidden="true"></span><span data-i18n="soon.whenV">Bald, Termin folgt</span></dd></div>
+      </dl>
+      <h3 class="soon-news-title mono" data-i18n="soon.newsTitle">Neueste Aktivitäten</h3>
+      <ol class="soon-news" data-new="Neu" data-next="Demnächst" data-i18n-a="data-new:soon.new;data-next:soon.next"></ol>
+      <a class="btn btn--ghost soon-cta" href="https://www.instagram.com/themeatcompanyberlin/" target="_blank" rel="noopener" data-magnetic><span class="btn-label" data-i18n="soon.cta">Updates auf Instagram</span><span class="btn-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- BESUCH -->
+<section class="visit" id="besuch" aria-labelledby="visitTitle">
+  <div class="wrap visit-grid">
+    <div class="visit-copy">
+      <p class="eyebrow mono"><span class="eyebrow-no">10</span><span data-i18n="visit.eyebrow">Besuch &amp; Bestellung</span></p>
+      <h2 class="visit-title" id="visitTitle" dir="ltr" lang="en">Let's meat <em>here.</em></h2>
+      <div class="visit-cols">
+        <div class="visit-block">
+          <h3 class="mono" data-i18n="visit.addr">Adresse</h3>
+          <p class="visit-addr">Friedrichstraße 63<br>10117 Berlin-Mitte</p>
+          <div class="visit-actions">
+            <button class="link-btn" data-copy="Friedrichstraße 63, 10117 Berlin" data-cursor="Kopieren" data-i18n="visit.copy" data-i18n-a="data-cursor:visit.copycursor">Adresse kopieren</button>
+            <a class="link-btn" href="https://www.google.com/maps/search/?api=1&amp;query=The+Meat+Company+Friedrichstra%C3%9Fe+63+10117+Berlin" target="_blank" rel="noopener">Google Maps ↗</a>
+          </div>
+        </div>
+        <div class="visit-block">
+          <h3 class="mono" data-i18n="visit.hours">Öffnungszeiten</h3>
+          <table class="hours">
+            <tbody>
+              <tr data-days="0,1,2,3,4"><th scope="row" data-i18n="visit.sunthu">So bis Do</th><td><span data-i18n="visit.t24">12:00 bis 24:00</span><small class="hours-kitchen" data-i18n="visit.k23">Küche bis 23:00</small></td></tr>
+              <tr data-days="5,6"><th scope="row" data-i18n="visit.frisat">Fr &amp; Sa</th><td><span data-i18n="visit.t24">12:00 bis 24:00</span><small class="hours-kitchen" data-i18n="visit.k24">Küche bis 24:00</small></td></tr>
+              <tr class="hours-lunch"><th scope="row" data-i18n="visit.lunch">Mittagsmenü</th><td data-i18n="visit.lunchtime">Mo bis Fr, 12 bis 15</td></tr>
+            </tbody>
+          </table>
+          <p class="status status--lg mono" data-status><span class="status-dot"></span><span class="status-text">Öffnungszeiten</span></p>
+        </div>
+      </div>
+      <div class="visit-order">
+        <a class="order-card" href="https://wolt.com/en/deu/berlin/restaurant/the-meat-company-ber" target="_blank" rel="noopener" data-cursor="Wolt">
+          <span class="mono" data-i18n="visit.delivery">Lieferung</span><strong lang="en">Wolt</strong><span class="order-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="order-card" href="https://www.ubereats.com/de-en/store/the-meat-companys/bbltFes5UFKcEIkeWC5Nww" target="_blank" rel="noopener" data-cursor="Uber Eats">
+          <span class="mono" data-i18n="visit.delivery">Lieferung</span><strong lang="en">Uber Eats</strong><span class="order-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="order-card" href="https://www.lieferando.de/speisekarte/the-meat-company-mitte" target="_blank" rel="noopener" data-cursor="Lieferando">
+          <span class="mono" data-i18n="visit.delivery">Lieferung</span><strong lang="en">Lieferando</strong><span class="order-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="order-card order-card--ghost" href="https://www.tiktok.com/@themeatcompanyberlin" target="_blank" rel="noopener" data-cursor="Folgen" data-i18n-a="data-cursor:visit.follow">
+          <span class="mono" data-i18n="visit.follow">Folgen</span><strong lang="en">TikTok</strong><span class="order-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+    <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=The+Meat+Company+Friedrichstra%C3%9Fe+63+10117+Berlin" target="_blank" rel="noopener" aria-label="Standort in Google Maps öffnen" data-cursor="Route" data-i18n-a="aria-label:a11y.map;data-cursor:visit.route">
+      <svg class="map-svg" viewBox="0 0 600 700" aria-hidden="true">
+        <g class="map-grid"></g>
+        <path class="map-street map-street--main" d="M300 -20 L300 720"/>
+        <text class="map-label" lang="de" x="314" y="120" transform="rotate(90 314 120)">FRIEDRICHSTRASSE</text>
+        <g class="map-pin" transform="translate(300 380)">
+          <circle class="map-pulse" r="18"/><circle class="map-pulse map-pulse--2" r="18"/>
+          <circle class="map-dot" r="9"/>
+        </g>
+      </svg>
+      <div class="map-card" lang="de">
+        <p class="mono">Berlin-Mitte</p>
+        <p class="map-card-title">The Meat Company</p>
+        <p class="map-card-sub">Friedrichstraße 63</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot-mark" dir="ltr" aria-hidden="true">
+    <img width="1200" height="486" src="assets/img/wordmark.webp" alt="" loading="lazy">
+    <span class="foot-shine"></span>
+  </div>
+  <div class="wrap foot-row">
+    <p class="mono">© <span data-year>2026</span> The Meat Company</p>
+    <p class="mono" lang="de">Friedrichstraße 63 · 10117 Berlin</p>
+    <p class="mono foot-clock">Berlin <span data-clock>12:00</span></p>
+    <a class="mono foot-link" href="impressum.html" data-i18n="foot.imprint">Impressum</a>
+    <a class="mono foot-link" href="datenschutz.html" data-i18n="foot.privacy">Datenschutz</a>
+    <button class="mono foot-top" data-top data-i18n="foot.top">Nach oben ↑</button>
+  </div>
+</footer>
+
+<dialog class="lightbox" aria-label="Bild vergrößert" data-i18n-a="aria-label:a11y.lightbox">
+  <img alt="">
+  <button class="lightbox-close" aria-label="Schließen" data-i18n-a="aria-label:a11y.close">✕</button>
+</dialog>
+
+<!-- Gericht im Detail: Klick auf ein Gericht der Karte, Inhalt kommt aus der Zeile (main.js, dish()) -->
+<dialog class="dish" aria-labelledby="dishName" data-dish>
+  <div class="dish-sheet">
+    <span class="dish-grip" aria-hidden="true"></span>
+    <button class="dish-close" aria-label="Schließen" data-i18n-a="aria-label:a11y.close">✕</button>
+    <figure class="dish-media">
+      <span class="dish-glow" aria-hidden="true"></span>
+      <img alt="" width="1200" height="900" decoding="async">
+      <button class="dish-nav dish-nav--prev" data-dish-step="-1" aria-label="Vorheriges Gericht" data-i18n-a="aria-label:a11y.prev" dir="ltr">←</button>
+      <button class="dish-nav dish-nav--next" data-dish-step="1" aria-label="Nächstes Gericht" data-i18n-a="aria-label:a11y.next" dir="ltr">→</button>
+    </figure>
+    <div class="dish-body">
+      <p class="dish-cat mono"></p>
+      <h3 class="dish-name" id="dishName"></h3>
+      <p class="dish-tags"></p>
+      <p class="dish-desc"></p>
+      <p class="dish-extra"></p>
+      <div class="dish-foot">
+        <p class="dish-price" dir="ltr"><span class="dish-qty mono"></span><span class="dish-num"></span><span class="dish-eur">€</span></p>
+        <p class="dish-count mono" dir="ltr"></p>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<!-- Speisekarte in einer anderen Sprache: erst bestätigen, dann herunterladen (main.js, menuPdf()) -->
+<dialog class="pdfstep" aria-labelledby="pdfStepTitle" data-pdfstep>
+  <div class="pdfstep-card">
+    <button class="dish-close" data-pdfstep-cancel aria-label="Schließen" data-i18n-a="aria-label:a11y.close">✕</button>
+    <span class="pdfstep-cover"><img width="360" height="510" src="assets/menu/cover-en.webp" alt=""></span>
+    <div class="pdfstep-text">
+      <p class="pdfstep-lang mono"></p>
+      <h3 class="pdfstep-title" id="pdfStepTitle" data-i18n="menu.pdf">Speisekarte als PDF</h3>
+      <p class="pdfstep-meta mono"><span data-i18n="menu.pdfmeta">16 Seiten · A4 · zum Ausdrucken</span> · <span class="pdfstep-size" dir="ltr"></span></p>
+      <div class="pdfstep-actions">
+        <a class="btn btn--copper" href="assets/menu/The-Meat-Company-Menu-EN.pdf" download data-pdfstep-go><span class="btn-label" data-i18n="menu.pdfbtn">Herunterladen</span><span class="btn-arrow" aria-hidden="true">↓</span></a>
+        <button class="link-btn" data-pdfstep-cancel data-i18n="menu.cancel">Abbrechen</button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/SplitText.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="js/smoke.js"></script>
+<script src="js/i18n-data.js?v=20261109"></script>
+<script src="js/i18n.js?v=20261109"></script>
+<script src="js/social-data.js"></script>
+<script src="js/news-data.js"></script>
+<script src="js/main.js?v=20261109"></script>
+</body>
+</html>

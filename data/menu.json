@@ -1,0 +1,111 @@
+{
+  "_hinweis": "Quelle: themeatcompany.berlin (Stand 30.10.2026). Nach jeder Änderung: python3 tools/build_menu.py",
+  "kategorien": [
+    {
+      "id": "burger",
+      "titel": "Burger",
+      "untertitel": "USDA Prime Beef, frisch vom Grill",
+      "items": [
+        {"name": "Smash Brioche Burger", "preis": "8,5", "text": "Brioche Bun, 130 g USDA Prime Beefpatty, Cheddar, Senf, Ketchup, Gewürzgurke, Zwiebeln", "bild": "smash"},
+        {"name": "Melt-Smash Brioche Burger", "preis": "10,5", "text": "Shokupan, 130 g USDA Prime Beefpatty, Gewürzgurke, Zwiebeln, Senf, Ketchup, Cheddar", "bild": "melt"},
+        {"name": "Pulled Beef Brioche Burger", "preis": "14", "text": "Brioche Bun, Pulled Beef, BBQ-Sauce, Cole Slaw", "bild": "pulledbeef"},
+        {"name": "The Meat Brioche Burger", "preis": "9,5", "text": "Brioche Bun mit Sesam, 130 g USDA Prime Beefpatty, Römersalat, Fleischtomate, Russian Dressing", "bild": "meatburger"},
+        {"name": "Meat the Heat", "preis": "15", "text": "180 g USDA Prime Beefpatty, Cheddar, Habanero Mayo, Rucola, Jalapeños, Tomate", "bild": "meattheheat", "tag": "scharf", "chili": 3},
+        {"name": "Trüffel Burger", "preis": "16", "text": "180 g USDA Prime Beefpatty, Cheddar, Trüffel Mayo, Römersalat, schwarzer Trüffel", "bild": "trueffel"},
+        {"name": "Brisket Burger", "preis": "21", "text": "Brioche Bun, 180 g Brisket, geschmorte Zwiebeln, Käsesauce, Schnittlauch", "bild": "brisketburger", "tag": "signature"},
+        {"name": "Chicken Lemon Burger", "preis": "15", "text": "Knoblauchmayo, Römersalat, Zitronenabrieb, Parmesan, Knoblauchöl", "bild": "chickenlemon"},
+        {"name": "Chicken Miso Burger", "preis": "15", "text": "Römersalat, Chicken Tender Miso BBQ, Srirachamayo", "bild": "chickenmiso"},
+        {"name": "The Breakfast Club", "preis": "16", "text": "180 g USDA Prime Beefpatty, Cheddar, Cocktail Sauce, Römersalat, Zwiebel, Gewürzgurke, Pastrami-Bacon, French Toast", "bild": "breakfastclub"},
+        {"name": "Beef Patty + Cheese", "preis": "5", "text": "Saftiges 150 g USDA Prime Beefpatty, frisch vom Grill, mit geschmolzenem Käse on top. Pur, ehrlich und voller Geschmack.", "bild": "patty"}
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "titel": "Sandwiches & Wraps",
+      "untertitel": "Auf Bestellung geschichtet",
+      "items": [
+        {"name": "Meat Cheesesteak Sandwich", "preis": "23", "text": "USDA Prime Entrecôte, frische Jalapeños, Provolone, Zwiebeln", "bild": "cheesesteak"},
+        {"name": "Short Rib Sub", "preis": "31", "text": "Short Rib, Cole Slaw, eingelegte rote Zwiebeln, BBQ Sauce", "bild": "shortribsub"},
+        {"name": "Entrecôte Sandwich", "preis": "33", "text": "220 g Rinder-Entrecôte USDA Prime, Rucola, Sauce Béarnaise, Café de Paris Butter", "bild": "entrecote"},
+        {"name": "TMC-Pastrami-Sandwich", "preis": "18", "text": "Shokupan, Pastrami, Russian Dressing, Senf, Gewürzgurke", "bild": "tmcpastrami", "extra": "+ 100 g extra Pastrami · 8 €", "tag": "signature"},
+        {"name": "Reuben Sandwich", "preis": "18", "text": "Pastrami, Sauerkraut, Gewürzgurke, Provolone, Senf, Russian Dressing", "bild": "reuben", "extra": "+ 100 g extra Pastrami · 8 €"},
+        {"name": "Pastrami Sub", "preis": "23", "text": "Köftebrot, 200 g Pastrami, Römersalat, Tomate, Gurke, Zwiebel, Knoblauchsauce, Cole Slaw", "bild": "pastramisub"},
+        {"name": "Rinderfilet Sandwich", "preis": "35", "text": "180 g arg. Rinderfilet, Pommes, Chimichurri, Provolone", "bild": "rinderfilet"},
+        {"name": "Chicken Wrap", "preis": "14", "text": "Fried Chicken, Cole Slaw, Chipotlemayo, Knoblauchöl", "bild": "chickenwrap"}
+      ]
+    },
+    {
+      "id": "meat",
+      "titel": "Meat",
+      "untertitel": "Vom Blech, mit Miso-Gurken und Rotkraut. Preise für 100 g / 200 g, wo angegeben.",
+      "items": [
+        {"name": "Pastrami", "menge": "100 g / 200 g", "preis": "10 / 19", "text": "Feinstes Rindfleisch, 14 Tage gepökelt und hauchdünn geschnitten. Saftig, würzig und schonend geräuchert.", "bild": "pastrami"},
+        {"name": "Brisket", "menge": "100 g / 200 g", "preis": "13 / 22", "text": "Zartes Rinderbruststück, slow cooked und 16 Stunden über Kirsch- und Walnussholz geräuchert.", "bild": "brisketmeat"},
+        {"name": "Short Rib", "preis": "28", "text": "Saftige, butterzarte Rinderrippen, langsam geräuchert, bis das Fleisch mühelos vom Knochen fällt.", "bild": "shortrib"},
+        {"name": "Pulled Beef", "preis": "14", "text": "Zart gegartes, saftiges Rindfleisch, stundenlang geräuchert, fein zerzupft und mit aromatischer BBQ-Sauce verfeinert.", "bild": "pulledbeefmeat"},
+        {"name": "Entrecôte 300 g", "preis": "42", "text": "Zartes, saftiges Rib-Eye-Steak in USDA Prime Qualität, perfekt marmoriert und auf den Punkt gegrillt. Ein Fleischgenuss der Extraklasse.", "bild": "entrecotemeat"},
+        {"name": "3 Chicken Tenders", "preis": "17", "text": "Hähnchen, Panko, Miso BBQ oder Hähnchen, Panko, Garlic Parmesan · + 2 Dips", "bild": "tendersmiso"}
+      ]
+    },
+    {
+      "id": "sides",
+      "titel": "Sides",
+      "untertitel": "Was daneben gehört",
+      "items": [
+        {"name": "Pommes Frites", "preis": "4", "text": "Knusprig, gesalzen, immer frisch.", "bild": "fries"},
+        {"name": "Süßkartoffelpommes", "preis": "5", "text": "Süß, knusprig, leicht gewürzt.", "bild": "sweetfries"},
+        {"name": "Pulled Beef Tacos", "preis": "15", "text": "Weizentortilla, Pulled Beef, Guacamole, Pico de Gallo, Limetten", "bild": "tacos"},
+        {"name": "Mac'n Cheese", "preis": "7", "text": "Cremig, käsig, hausgemacht.", "bild": "mac"},
+        {"name": "Mash & Truffle", "preis": "9", "text": "Kartoffelpüree, Trüffelcreme, Butter", "bild": "mashtruffle"},
+        {"name": "Mash & Parmesan", "preis": "8", "text": "Kartoffelpüree, Parmesan, Butter", "bild": "mashparm"},
+        {"name": "Mash & Gravy", "preis": "7", "text": "Kartoffelpüree, Bratensauce", "bild": "mashgravy"},
+        {"name": "Miso Gurken", "preis": "6", "text": "Gurken in Miso-Marinade und Sesam", "bild": "miso"},
+        {"name": "Cole Slaw", "preis": "5", "text": "Rotkraut, Weißkohl, Vinaigrette", "bild": "coleslaw"},
+        {"name": "Caesar Salad", "preis": "8,5", "text": "Römersalat, Tomaten, Croutons, Caesar Dressing", "bild": "caesar"},
+        {"name": "Texas Chili", "preis": "6", "text": "Geschmorte Rinderbrust, Zwiebeln, Knoblauch, Jalapeños, Habanero, geröstetes Sauerteigbrot", "bild": "chili", "tag": "scharf", "chili": 3},
+        {"name": "Mexican Corn", "preis": "6", "text": "Grilled Corn, Chipotle Mayo, Jalapeños, Provolone", "bild": "corn"}
+      ]
+    },
+    {
+      "id": "sauces",
+      "titel": "Sauces",
+      "untertitel": "Alles aus unserer Küche",
+      "kompakt": true,
+      "items": [
+        {"name": "Ketchup, Mayo, Senf", "preis": "0,5", "bild": "ketchupmayosenf"},
+        {"name": "Café de Paris Butter", "preis": "2", "text": "Besonders cremig & feiner Geschmack", "bild": "cafedeparis"},
+        {"name": "Knoblauchsauce", "preis": "2", "text": "Deine extra Portion Knobi", "bild": "knoblauchsauce"},
+        {"name": "Käsesauce", "preis": "3,5", "text": "Nur für richtige Cheese Lover", "bild": "kaesesauce"},
+        {"name": "Habanero Cheesesauce", "preis": "4", "text": "Feurig und ordentlich cheesy", "tag": "scharf", "chili": 3, "bild": "habanerocheese"},
+        {"name": "BBQ Sauce", "preis": "2", "text": "Hausgemacht, mit einer feinen Fruchtnote", "bild": "bbqsauce"},
+        {"name": "Habaneromayo", "preis": "2", "text": "Für alle, die es richtig scharf mögen", "tag": "scharf", "chili": 3, "bild": "habaneromayo"},
+        {"name": "Trüffelmayo", "preis": "3", "text": "Mayo mit einer feinen Trüffelnote", "bild": "trueffelmayo"},
+        {"name": "Srirachamayo", "preis": "2", "text": "Hol dir einen leichten Schärfekick", "tag": "scharf", "chili": 1, "bild": "srirachamayo"},
+        {"name": "Chipotle Mayo", "preis": "2", "text": "Wie in den Staaten", "tag": "scharf", "chili": 2, "bild": "chipotlemayo"},
+        {"name": "Extra Cheddar", "preis": "1,5", "bild": "cheddar"}
+      ]
+    },
+    {
+      "id": "drinks",
+      "titel": "Drinks",
+      "untertitel": "Kalt aus dem Kühlschrank",
+      "kompakt": true,
+      "items": [
+        {"name": "Cola, Fanta, Sprite, Mezzo", "menge": "0,33 l", "preis": "4"},
+        {"name": "Wasser", "menge": "0,25 l", "preis": "3,5", "text": "Vio & Apollinaris"},
+        {"name": "Heimat Schorle", "menge": "0,33 l", "preis": "4", "text": "Apfelschorle, Orange-Maracujaschorle, Rhabarberschorle"},
+        {"name": "Youniq Limo", "menge": "0,33 l", "preis": "4,5", "text": "Yuzu, Salted Lychee, Matcha Limette"},
+        {"name": "Elephant Bay Ice Tea", "menge": "0,33 l", "preis": "4,5"},
+        {"name": "Almdudler", "menge": "0,33 l", "preis": "4", "text": "Classic, Zero"}
+      ]
+    },
+    {
+      "id": "sweets",
+      "titel": "Sweets",
+      "untertitel": "Zum Schluss",
+      "items": [
+        {"name": "Cup Cheesecake", "preis": "7", "text": "Daily Specials. Frag unser Team nach der Sorte des Tages.", "bild": "cheesecake"}
+      ]
+    }
+  ]
+}
