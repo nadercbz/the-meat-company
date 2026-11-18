@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Meat Company · Berlin · Standort wählen</title>
+<meta name="description" content="The Meat Company Berlin. Deluxe Fastfood, USDA Prime Beef, 16 Stunden Brisket. Wähle deinen Standort: Friedrichstraße oder bald Wilmersdorfer Straße.">
+<meta name="theme-color" content="#0b0a09">
+<link rel="canonical" href="https://themeatcompany.berlin/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Meat Company · Berlin">
+<meta property="og:description" content="Deluxe Fastfood. Wähle deinen Standort.">
+<meta property="og:image" content="https://themeatcompany.berlin/assets/img/og.jpg">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/fonts.css?v=20261118">
+<link rel="preload" as="image" href="assets/img/foto/ph_tray_walk.webp">
+<script>
+  /* Gleiche Sprachwahl wie auf der Store Seite (Schlüssel tmc-lang) */
+  (function (d) {
+    var L = ["de", "en", "tr", "ar", "ru"], q = (location.search.match(/[?&]lang=([a-z]{2})/) || [])[1], s = null;
+    try { s = localStorage.getItem("tmc-lang"); if (L.indexOf(q) > -1) localStorage.setItem("tmc-lang", q); } catch (e) {}
+    var lang = L.indexOf(q) > -1 ? q : (L.indexOf(s) > -1 ? s : "de");
+    d.lang = lang; d.dir = lang === "ar" ? "rtl" : "ltr";
+    if (lang === "ar") { var l = document.createElement("link"); l.rel = "stylesheet"; l.href = "css/fonts-ar.css?v=20261109"; document.head.appendChild(l); }
+  })(document.documentElement);
+</script>
+<style>
+  :root {
+    --soot: #0b0a09; --soot-2: #141210; --copper: #d4875a; --copper-2: #f3c39c; --gold: #c9a25b;
+    --bone: #f1e9dc; --bone-2: rgba(241, 233, 220, .72); --mute: rgba(241, 233, 220, .5); --line: rgba(241, 233, 220, .12);
+    --copper-grad: linear-gradient(120deg, #b8683f, #f3c39c 45%, #d4875a 70%, #8f4d2c);
+    --f: "Geist", "IBM Plex Sans Arabic", "Cairo", ui-sans-serif, system-ui, sans-serif;
+    --ease: cubic-bezier(.2, .7, .1, 1);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; min-height: 100vh; min-height: 100dvh; background: var(--soot); color: var(--bone); font-family: var(--f); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  body::before { content: ""; position: fixed; inset: -20% -10% auto; height: 80vh; background: radial-gradient(ellipse at 50% 30%, rgba(212, 135, 90, .22), transparent 60%); pointer-events: none; }
+  a { color: inherit; text-decoration: none; }
+  .page { position: relative; display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; padding: max(20px, env(safe-area-inset-top)) clamp(16px, 4vw, 48px) max(20px, env(safe-area-inset-bottom)); }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .mono-brand { font-size: .72rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
+  .langs { display: flex; gap: 4px; }
+  .langs a { font-size: .72rem; font-weight: 500; letter-spacing: .12em; padding: 8px 9px; border-radius: 999px; color: var(--mute); transition: color .3s, background .3s; }
+  .langs a:hover { color: var(--bone); }
+  .langs a[aria-current] { color: var(--soot); background: var(--bone); }
+  .head { text-align: center; margin: clamp(8px, 2vh, 24px) auto clamp(22px, 3.5vh, 40px); max-width: 900px; }
+  .wordmark { width: min(340px, 70vw); height: auto; display: block; margin: 0 auto 18px; }
+  .kicker { font-size: .74rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--copper); margin: 0 0 14px; }
+  h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.6rem); font-weight: 700; line-height: 1.05; letter-spacing: -.03em; }
+  .lead { margin: 14px auto 0; max-width: 560px; font-size: clamp(1rem, 1.3vw, 1.12rem); line-height: 1.55; color: var(--bone-2); }
+  .stores { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(14px, 2vw, 24px); width: 100%; max-width: 1240px; margin: 0 auto; flex: 1; max-height: 640px; min-height: 440px; }
+  .store { position: relative; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden; border-radius: 26px; border: 1px solid var(--line); background: var(--soot-2); isolation: isolate; min-height: 440px; }
+  .store-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transform: scale(1.02); transition: transform 1.2s var(--ease), filter .6s; }
+  .store::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(11, 10, 9, .05) 25%, rgba(11, 10, 9, .9) 85%); }
+  a.store:hover .store-img, a.store:focus-visible .store-img { transform: scale(1.07); }
+  a.store:focus-visible { outline: 2px solid var(--copper); outline-offset: 4px; }
+  .store-body { padding: clamp(22px, 3vw, 36px); }
+  .badge { display: inline-flex; align-items: center; gap: 8px; font-size: .68rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; padding: 7px 12px; border-radius: 999px; background: rgba(11, 10, 9, .55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); margin-bottom: 16px; }
+  .badge i { width: 7px; height: 7px; border-radius: 50%; background: #6fcf7a; box-shadow: 0 0 0 4px rgba(111, 207, 122, .18); }
+  .store h2 { margin: 0; font-size: clamp(2rem, 3.6vw, 3.2rem); font-weight: 700; line-height: 1; letter-spacing: -.03em; }
+  .store p { margin: 10px 0 0; color: var(--bone-2); font-size: .98rem; line-height: 1.5; }
+  .cta { margin-top: 22px; display: inline-flex; align-items: center; gap: 12px; height: 52px; padding: 0 22px; border-radius: 999px; background: var(--copper-grad); color: var(--soot); font-weight: 600; font-size: .98rem; transition: gap .4s var(--ease); }
+  a.store:hover .cta { gap: 18px; }
+  [dir="rtl"] .cta span { transform: scaleX(-1); }
+  /* Coming Soon: nicht klickbar */
+  .store--soon { cursor: default; background: repeating-linear-gradient(0deg, transparent 0 39px, rgba(241, 233, 220, .05) 39px 40px), repeating-linear-gradient(90deg, transparent 0 39px, rgba(241, 233, 220, .05) 39px 40px), var(--soot-2); }
+  .store--soon::after { background: linear-gradient(180deg, transparent 30%, rgba(11, 10, 9, .85) 90%); }
+  .store .soon-word { position: absolute; top: 18%; left: 50%; transform: translateX(-50%); margin: 0; font-size: clamp(3rem, 9vw, 7.5rem); font-weight: 700; letter-spacing: -.04em; line-height: .9; text-transform: uppercase; color: transparent; -webkit-text-stroke: 1.5px rgba(241, 233, 220, .35); text-align: center; font-size: clamp(3rem, 9vw, 7.5rem); white-space: nowrap; z-index: -1; }
+  .tape { position: absolute; left: -15%; width: 130%; top: 52%; transform: rotate(-6deg); display: flex; overflow: hidden; white-space: nowrap; padding: 12px 0; background: var(--copper); color: var(--soot); font-size: .74rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; box-shadow: 0 18px 40px -16px rgba(0, 0, 0, .8); z-index: -1; }
+  .tape span { flex: none; padding-inline-end: 2em; animation: run 22s linear infinite; }
+  @keyframes run { to { transform: translateX(-100%); } }
+  .badge.is-closed i { background: var(--copper); box-shadow: 0 0 0 4px rgba(212, 135, 90, .2); }
+  .badge--soon i { background: var(--gold); box-shadow: 0 0 0 4px rgba(201, 162, 91, .2); }
+  .cta--off { background: rgba(241, 233, 220, .08); color: var(--mute); border: 1px solid var(--line); }
+  .foot { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; margin-top: clamp(24px, 4vh, 40px); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
+  .foot a:hover { color: var(--bone); }
+  @media (max-width: 760px) {
+    .stores { grid-template-columns: 1fr; max-height: none; }
+    .store { min-height: 380px; }
+    .tape { top: 23%; }
+    .store .soon-word { top: 6%; }
+    .langs a { padding: 7px 7px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .tape span { animation: none; } .store-img { transition: none; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <span class="mono-brand">Berlin</span>
+    <nav class="langs" aria-label="Sprache" dir="ltr">
+      <a href="?lang=de" data-l="de">DE</a><a href="?lang=en" data-l="en">EN</a><a href="?lang=tr" data-l="tr">TR</a><a href="?lang=ar" data-l="ar">AR</a><a href="?lang=ru" data-l="ru">RU</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="head">
+      <img class="wordmark" src="assets/img/wordmark.webp" alt="The Meat Company" width="1200" height="486">
+      <p class="kicker" data-t="kicker">Deluxe Fastfood · Berlin</p>
+      <h1 data-t="title">Wähle deinen Store.</h1>
+      <p class="lead" data-t="lead">Jeder Standort hat seine eigene Karte und eigene Preise. Such dir deinen aus.</p>
+    </div>
+
+    <section class="stores">
+      <a class="store" href="friedrichstrasse.html" data-store-link>
+        <img class="store-img" src="assets/img/foto/ph_tray_walk.webp" alt="" loading="eager" decoding="async">
+        <div class="store-body">
+          <span class="badge" data-status><i></i><span data-t="open">Geöffnet · täglich 12 bis 24 Uhr</span></span>
+          <h2>Friedrichstraße</h2>
+          <p lang="de">Friedrichstraße 63 · 10117 Berlin Mitte</p>
+          <span class="cta"><b data-t="cta">Zum Store</b> <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+
+      <div class="store store--soon" aria-disabled="true">
+        <p class="soon-word" aria-hidden="true">Soon</p>
+        <div class="tape" aria-hidden="true" dir="ltr"><span>Coming Soon · Coming Soon · Coming Soon · Coming Soon · Coming Soon · Coming Soon ·</span><span>Coming Soon · Coming Soon · Coming Soon · Coming Soon · Coming Soon · Coming Soon ·</span></div>
+        <div class="store-body">
+          <span class="badge badge--soon"><i></i>Coming Soon</span>
+          <h2>Wilmersdorfer Straße</h2>
+          <p><span lang="de">Berlin Charlottenburg</span> · <span data-t="soonText">Eröffnung folgt</span></p>
+          <span class="cta cta--off" data-t="soonCta">Bald verfügbar</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© <span data-year>2026</span> The Meat Company</span>
+    <a href="impressum.html" data-t="imprint">Impressum</a>
+    <a href="datenschutz.html" data-t="privacy">Datenschutz</a>
+    <a href="https://www.instagram.com/themeatcompanyberlin/" target="_blank" rel="noopener">Instagram</a>
+  </footer>
+</div>
+<script>
+  (function () {
+    var T = {
+      en: { kicker: "Deluxe Fastfood · Berlin", title: "Choose your store.", lead: "Every location has its own menu and its own prices. Pick yours.", open: "Open · daily 12 pm to midnight", closed: "Closed · opens at 12 pm", cta: "Go to store", soonText: "Opening date to follow", soonCta: "Coming soon", imprint: "Imprint", privacy: "Privacy" },
+      tr: { kicker: "Deluxe Fastfood · Berlin", title: "Şubeni seç.", lead: "Her şubenin kendi menüsü ve kendi fiyatları var. Seninkini seç.", open: "Açık · her gün 12:00 ile 24:00 arası", closed: "Kapalı · 12:00'de açılıyor", cta: "Şubeye git", soonText: "Açılış tarihi yakında", soonCta: "Yakında", imprint: "Künye", privacy: "Gizlilik" },
+      ar: { kicker: "Deluxe Fastfood · برلين", title: "اختر فرعك.", lead: "لكل فرع قائمة طعام وأسعار خاصة به. اختر فرعك.", open: "مفتوح · يوميًا من 12 ظهرًا حتى منتصف الليل", closed: "مغلق · يفتح الساعة 12 ظهرًا", cta: "إلى الفرع", soonText: "موعد الافتتاح قريبًا", soonCta: "قريبًا", imprint: "بيانات الناشر", privacy: "الخصوصية" },
+      ru: { kicker: "Deluxe Fastfood · Берлин", title: "Выбери свой ресторан.", lead: "У каждого ресторана своё меню и свои цены. Выбери свой.", open: "Открыто · ежедневно с 12 до 24", closed: "Закрыто · откроется в 12:00", cta: "Перейти", soonText: "Дата открытия скоро", soonCta: "Скоро", imprint: "Импрессум", privacy: "Конфиденциальность" }
+    };
+    var lang = document.documentElement.lang, t = T[lang];
+    if (t) document.querySelectorAll("[data-t]").forEach(function (el) { var k = el.getAttribute("data-t"); if (t[k]) el.textContent = t[k]; });
+    document.querySelectorAll(".langs a").forEach(function (a) {
+      if (a.dataset.l === lang) a.setAttribute("aria-current", "true");
+      a.addEventListener("click", function () { try { localStorage.setItem("tmc-lang", a.dataset.l); } catch (e) {} });
+    });
+    if (lang !== "de") document.querySelector("[data-store-link]").href = "friedrichstrasse.html?lang=" + lang;
+    /* Live Status nach Berliner Zeit, geöffnet täglich 12 bis 24 Uhr */
+    try {
+      var h = +new Intl.DateTimeFormat("de-DE", { hour: "numeric", hourCycle: "h23", timeZone: "Europe/Berlin" }).format(new Date());
+      if (h < 12) { var b = document.querySelector("[data-status]"); b.classList.add("is-closed"); b.querySelector("[data-t]").textContent = (t && t.closed) || "Geschlossen · öffnet um 12 Uhr"; }
+    } catch (e) {}
+    document.querySelector("[data-year]").textContent = new Date().getFullYear();
+  })();
+</script>
+</body>
+</html>
